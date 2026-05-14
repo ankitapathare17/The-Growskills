@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the growskills</title>
+    <link rel="stylesheet" href="./grow.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="mainbox">
+       <div class="navbar">
+        <div class="logo">
+            <img src="assets/growi.png" alt="">
+        </div>
+        <div class="snav">
+            <div class="ssnav">Home</div>
+            <div class="ssnav">Courses
+            </div>
+            <div class="sssnav">Digital Assets</div>
+            <div class="ssssnav">
+                <img src="assets/user2.png" alt="">
+            </div>
+            <div class="ssssnav">
+                
+            </div>
+        </div>
+       </div> 
+       
+
+       <div class="bluebox">
+        <div class="learn"><p class=" a">Learn Create & Grow<br><p class="d">With Growskills</p>.</p>
+            
+        </div>
+        
+    
+       <div class="o"><p class="un">Unlock your creativity with our Graphic Designing<br>course! Learn essential skills in design principles.</p>
+        </div>
+        <br>
+        
+        <div class="search">
+            <div class="three">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAACUCAMAAABY3hBoAAAATlBMVEX///+AgIB7e3t3d3dzc3Nvb2/r6+v29vaJiYn8/PzX19fj4+OGhobu7u67u7vn5+eXl5empqbOzs6goKCsrKyRkZFqamrFxcWzs7Pd3d0SnxLUAAAHMklEQVR4nM1c2dqrKgw9MjjPQ9X3f9FTu0ugFmQQ6L8u9rcv/uoyJCshBv/7zxpFU+1jO0/9suTL0k9zu5ZVmtlfyCuadehzRDB6Ijlw/AcTXPdTW/2KVFoOhOJ/fL6BEHn0a1VEpzVOtZIUkMNJ38Zc1GKf1aY6AT/6MRa3skeGrN52W9oIrIoyIRas3txI2wTmtffYmtYBnAe1WtXLrfWUCEwIOf7BWLHOOBmD8WqT73siTB+on9ux3A+U47pNNaUyengIEwVVcl5FROp+XlPJ32blJpETRNcAutaebIAIncbuwgbpPiN64oZ738y65dNcuJ5Kg59VW/75O4T8elpVfzw6xq1sAWVoyvrTbGj1yGulH7QWu6fupg8vIJO3GGjF5cDYPsXsuSgzuPfDrJiEq6LETShL0ddQ0vngNQiXJIvrJbNNcAeUm7roBS8hHFFyx3GrhXsawnfLyGLgV8P1vatlgk+g+qbNJm4vPN+71BOjYLPkFjMhHomP8qDkwoHuxOYq2N6PYje5wMw5Pe3COvrKJClnhl3XoBPie/fE6whzzswxyHvk3V4HxNV0Krg3WEhsUkhYMIOKAOUOblbd9wUVdm4y+0sXnNd9/TqjhMUg1poNCobyAJX6zHQILZa/5At5T6EVKCCwbP0Efkh8FpwcHZdIqwUZYSGnILyEpGJ1B27pJFSXy+0WI3sc70rBAV6MBnMx46koYOMNKj1sHF7cw8K1G551Izy9qZcVE3uWJWjLbQMvM0yZUO2QkAZ75kww2Wb2gxncMnBrF25kmFzYPsu1XDJGA0tjVL6A69c+tqVXAGdGvcmfw18PgXmJuyYD909rK/veAlcMgzDjqh+cFxdZE/Uf4q3ks2JkVqj1cQkxGX4ln2vJnIxqM3nKiAWPyQMQl/pqoWXPYBTBt7Eyx9GW2OBi/rcgMpQsLhON92c9c7GweZKhYeKkKxebnHljiD2IBIyYTskqlo9oHF48z2i8nwtLHF4QbDqfXt8WC7Y7OoMlGl0fDx7AsHa7jYotkaZaZmoRvBZjaKDLfl1ggBLHUYunPkHNcE2MtfuiZMoXMciW1/rEZCwesdqMGOidv6arhhgo+nXRAMSiWYwR07TwfkdMY7E/62NLdGKJGbE+uo7Bpvdax/6s8m/GNbgndEz5Nf0LqC5ibN4OlIbVBWtcWPffXcEtcV30QwVLIhEbDCtYeBVII409Mn3SDbDALilCS+V1P9gl6ZKz6ebAEyrGS9uI+tFOPMl1fwnbpCX0uOMLs3lviSlxlPois+gSQn0Rw8k6w4r/wAov7CIQg5Wc9OpUGe4OvIAtj4kGwPu6CI0o3oQy6RJucd4kfdzKqFPCt6Chi8UG2d0pt3pfcQMQZwYxeQCmIvSt5FsomIOZenMGGT9sLwpe2Bhr+Wr9CxfAjjIxLkoLSEshvQw8jJo/PszP0HCBCSFpM3nHm9zhtAw0zGoigAdyqJbn7jh2xOeoAr1SAs+31CQ+4WXwws4BfCDAMiPz2YsguZw/t/WYIjQ7Euq/jZFyT7EPez6ci3xnJj5x6iSUfPzbfCrIkldSu+x4Mm4yvzummT+xW8oTpkKdnkyBQThQ4Tg8z2fTkb8MwOd+X0/sJpPczfwc8zgdQHFfzWxBd5/tzOvrsKHb8FzBB7Z9VBqp7CSh2wmGSjggeHu2eZScNkxcG0uNcLgM53ekNptVR1mxxVwnh2izO+d/qvzLvQRmLlcUDgYcR4DcXss1A1XSSlwlPBWZIeRyrrStpd4lMnMSyo8gR3S2U45sxfoTyUjbhJWh2D78FieDObWiXfS0XsycIusU6Yjmo0may/bpfFo2T1RwG7ttzkGF62HURPm+LacDxoiUqfpjAY4T1OfTxQnCj7wtpeeLs2Zfe0rOFF4HsoU8dwZ1a6/uEiXCx6cttnVPswIojdvQ5/jbMOj9rjFTK5pr43eVRv3x6Q1C6eMFSon8bD3iHXO+0/kCMWjGytDMZ182BRHT2VfxI/B3ZPbMePJMfAmE+pNKtcrVRHanWwR0M7X7ggOiy/5lhlaZom7sMA7NNDUbIvkgvVGpVg37412ArJy+xUByC/xYRtXzlxcf9Lg1wFMOC7oyHMb5tF75S6fO7Der5ZeKPi13/q7DoR+H9up8pVLHkYfXpVnZDlO/5HXyIlgvyzRso1mSz3q1oPnp5WRN2lUHurTJLISoUVceblWtP8xqZp6+peCIQs0s2uyHAq06AqKM7l8wU9vs7hcLbkKdBMKevjNgpk6+0WYS5UjVSSDaJJs1s0CniE1RBE8C7syUjkZiTQsroJbaEGfoLVBsqqoW/9hk/NXyCZHOIl1gfMiZ/ThrPrHLicU6WnOBSlqta8feIqCRtDaiTeVe4qO1+o7K34o/g+QtxW+rH0B2Yhbg4ymuaMXNMPoLrs8gMMN5lPlSU+zLq82GcPJ31vEfsn3r83x496D/B104QylWdWPZAAAAAElFTkSuQmCC" alt="">
+            </div>
+            <div class="threee">
+                <div class="w">
+                   
+                    <input type="text" placeholder="Search whatever you're looking for... " name="search"/>
+                    
+                 
+                </div>
+                 </div> 
+            </div>
+        
+            <br>
+            <br>
+                <div class="ssearch">
+                    <div class="ui">
+                      <div class="smg">
+                       <img src="assets/s1.png" alt="">
+                      </div>
+                      <div class="typo"><p class="p">photography</p></div>
+                    </div>
+                    <div class="uiiii">
+                        <div class="smg">
+                            <img src="assets/s1.png" alt="">
+                           </div>
+                           <div class="typo">Graphic</div>
+                        </div>
+                            
+                    
+                    <div class="ui2">
+                          
+                        <div class="smg">
+                            <img src="assets/s1.png" alt="">
+                           </div>
+                           <div class="typo">Designing</div>
+                        </div>
+                    
+                    <div class="uiiiii">
+                        <div class="smg">
+                            <img src="assets/s1.png" alt="">
+                           </div>
+                           <div class="typo">Documentary</div>
+                        
+                    </div>
+                    <div class="uiii">
+                        <div class="smg">
+                            <img src="assets/s1.png" alt="">
+                           </div>
+                           <div class="typo">UI/UX</div>
+                        
+                    </div>
+                    
+                    <div class="uii">
+                        <div class="smg">
+                            <img src="assets/s1.png" alt="">
+                           </div>
+                           <div class="typo">Typography</div>
+                    </div>
+               </div>
+       </div> 
+                
+        </div>
+
+       </div>
+      <div class="box1">
+       <div class="innerbox">
+        <div class="bb1">
+            <img src="assets/1i.png" alt="">
+        </div>
+        <div class="bb1">
+            
+            <img src="https://thegrowskills.com/assets/Graphic%20Design-i1-9gpLz.jpg" alt="">
+        </div>
+        <div class="bb1">
+            <img src="https://thegrowskills.com/assets/Social%20Media-BarAZ7Cy.jpg" alt="">
+        </div>
+        <div class="bb1">
+            <img src="https://thegrowskills.com/assets/Branding-Cz0kbQY9.avif" alt="">
+        </div>
+        <div class="bb1">
+            <img src="https://thegrowskills.com/assets/print%20design-Df9Umasd.jpg" alt="">
+        </div>
+        <div class="bb1">
+            <img src="https://thegrowskills.com/assets/Ui-C42udsxA.jpg" alt="">
+        </div>
+        <div class="bb1">
+            <img src="https://thegrowskills.com/assets/Graphic%20Design-i1-9gpLz.jpg" alt="">
+        </div>
+        <div class="bb1">
+            <img src="https://thegrowskills.com/assets/Packaging-DgvRzEEa.jpg" alt="" sizes="" srcset="">
+        </div>
+        <div class="bb1">
+            <img src="https://thegrowskills.com/assets/Ui-C42udsxA.jpg" alt="">
+        </div>
+        <div class="bb1">
+            <img src="https://thegrowskills.com/assets/Freelancing-DCwFyUMw.jpg" alt="">
+        </div>
+       
+        <div class="bb1">
+                <img src="https://thegrowskills.com/assets/AI-DT96iLf1.jpg" alt="">
+            </div>
+            <div class="bb1">
+                <img src="https://thegrowskills.com/assets/Graphic%20Design-i1-9gpLz.jpg" alt="">
+            </div>
+
+
+
+
+            <div class="bb1">
+                <img src="assets/1i.png" alt="">
+            </div>
+            <div class="bb1">
+                
+                <img src="https://thegrowskills.com/assets/Filmvideo-BvZaA2mv.avif" alt="">
+            </div>
+            <div class="bb1">
+                <img src="https://thegrowskills.com/assets/PhotographyImg-CRIVjM4L.jpg" alt="">
+            </div>
+            <div class="bb1">
+                <img src="https://thegrowskills.com/assets/Productivity-CdhvNbW6.avif" alt="">
+            </div>
+            <div class="bb1">
+                <img src="https://thegrowskills.com/assets/Marketing-CxF0sEjx.avif" alt="">
+            </div>
+            <div class="bb1">
+                <img src="https://thegrowskills.com/assets/AnimationImg-DgIKhrvX.jpg" alt="">
+            </div>
+            <div class="bb1">
+                <img src="https://thegrowskills.com/assets/GraphicDesign-CnHGcPpB.jpg" alt="">
+            </div>
+            <div class="bb1">
+                <img src="https://thegrowskills.com/assets/FreelanceImg-DP8zkRO1.jpg" alt="" sizes="" srcset="">
+            </div>
+            <div class="bb1">
+                <img src="https://thegrowskills.com/assets/TypographyImg-Cs-e15C1.avif" alt="">
+            </div>
+            <div class="bb1">
+                <img src="https://thegrowskills.com/assets/AnimationImg-DgIKhrvX.jpg" alt="">
+            </div>
+           
+            <div class="bb1">
+                    <img src="https://thegrowskills.com/assets/GraphicDesign-CnHGcPpB.jpg" alt="">
+                </div>
+                <div class="bb1">
+                    <img src="https://thegrowskills.com/assets/DigitalMarketingImg-94h9C2l3.avif" alt="">
+                </div>
+
+        </div>
+       </div>
+      </div>
+
+
+    <br>
+    <br>
+    <br>
+    
+     <div class="sanim">
+        <h1 class="explore">Explore Brand New</h1><br>
+        <p class="online">Online Courses</p>
+     </div>
+     
+     
+     <br>
+     <br>
+
+
+
+     <div class="bbox">
+        <div class="bb">
+            <div class="iimg">
+                <img src="data:image/jpeg;base64,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" alt="">
+            </div>
+            <div class="parag">
+          <p><span class="rs">₹ 5,999   <span class="strike"> <s>₹7,000</s></span></p></span><br>
+          <h1 class="graphic">Graphic Design All In<br> One Masterclass</h1><br>
+           <div class="buybutton">Buy Now</div>
+
+            </div>
+        </div>
+        <div class="bb">
+            <div class="iimg">
+                
+                    <img src="https://res.cloudinary.com/dwgelsvcd/image/upload/v1760380794/yhisfie63q5xibnr1clt.jpg" alt="">
+                
+            </div>
+            <div class="parag">
+                <p><span class="rs">₹ 999 <span class="strike"> <s>₹2000</s></span></p></span><br>
+                <h1 class="graphic">Generative Ai Masterclass</h1><br>
+                 <div class="buybutton">Buy Now</div>
+
+
+
+
+            </div>
+
+        </div>
+        
+        <div class="bb">
+            
+                <div class="iimg">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMQEhUQEhMQERUWFRgWFxYXFx0YGhcfFxEXFhoXGBgYHSogHholHhgaIzEiJSktLi4uGCAzODYtNygtLisBCgoKDg0OGhAQGy0lHSItLS0vLS0tLS0tLS8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBEQACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAAAwYEBQECBwj/xABKEAABAwIEAQcEDQoFBQAAAAABAAIDBBEFEiExEwYHIkFRYXEUMnOBFSMzNEJUkZOhsrPR0hYXU2JygpKiseJSVZTB0yQlQ8Pw/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwQFBv/EACgRAQACAgEDBAMAAgMAAAAAAAABAgMREgQhMRMyQVEUImFScSQzof/aAAwDAQACEQMRAD8Apqq+WEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBBJkVNy14QZE3JwgyJuThBkTcnCDIm5OEGRNycIMibk4QZE3JwgyJuThBkTcnCDIm5OEGRNycIMibk4Q4LU2TSHRWZCkEBAQEBAQEBAQEBAQEBAQEBAQEBAQEEyydAgICAgKRwgAgoOVAICAgKRwUhE+ESuwFIICAgICAgICAgICAgICAgICAgICAgIJlm6BupsNT2DU/IiYjfhtKPk3WTeZTVB7ywtHyusFOpaVw3t4iW7pObavf5zIoh+u8f0bdTxlrXpMkt3Sc0z/8Ay1LR3MZf6XH/AGU8G1ehn5luqTmuo2+e6eXxdlH8gCnjDWvRY48927pORtBF5tLCbdbxnPyvup1DaOnxx8KZzxwNjZShjWsF5dGgAbR9QVbOXrYiIjTzNUecKAQEBBwVMIlEtGAgICAgICAgICAgICAgICAgICAgICAgIJH7HwWbofR+CUzGQx5GMZeNvmtA+COxaw92lYisdmwUtBAQEBBROceKF9Rh7agtEJklzlzsotkbu64trbrVZcfUxWbV5eEfsNgP6Sk/1R/5E1COHTfcJ4uTOCvY6VvAdGzR7xUOLW3/AMTg+w3G/amoWjFgmNoPYbAf0lJ/qj/yJqFeHT/xkUPJfBp3ZIeBK4C5ayoc422vYP21TULVw4LdoUHnGweGjqxFA3IwxNda5dqXPB1cSeoKlo04uqx1pfVVWKiHLKJaMBBPRQCSRsZe2MONs7r5W36zbWyL0rymI2tE/IJ7ZTTiqonT20hzFrj0c1hdu9tVOnVPR6nUWjapTMLHFrhlc0lpB6iDYj5VVyTWYnTqSiNMl9C8QtqCAI3SGMG41c1uYi2+3WpX9OePP4bLk3ydNdxMs0MRjaXuD83mjd+g2CRDTDg9Xffw4xfk4+nibUNlgqIXOycSJ2YB1r5XAi4P/wB2IZOnmkconcNLdQw0XHchoupNOMw7QhqXN1BpxmHaFJpyShoJCg07RsLiGjUkgAdpJsAhEbnUJa+kdBI+GSwfG4tcL3sR3hStek1njKAFQroUoEBAQSSbHwWbofSuFe4xejZ9QLWHv09sMpSsICAgIPM+erzaXxl/pGqXcHXeKvLrdxVHncZ+l05OD/s+Ifts/wDWrR4deKJ9Cyl28VVyamV55nx/1r/QO+0jVqeXZ0W+c/6dOd73830DPtJEv5R1vvUgqsOKUS0YCCWmaS9oAJJcLAdeqhfHH7Rr7euYhl9lwBQyuecoFWHPIZeG2cMIMfR21/qrfL17f93t7/bAeGUcELo3TSF803Glip2TmZzZi3JIXG4BF7Ad6KzEUrEx99+zvhM0eZsFPG+hfLPK5jZYA5s4b50T7dKMNNxbSwAQpx8VjW5+mpxSunbhELRY+3TwyZY2kBrM7d8um3nbntUfDLJa8YNf1h82TRxKsua5zfI5Q4N3N3M6IPUSL2Uwz6KO9v8ATJxiKM0VK2lY5tFJOHVDiS6RkgIaRIfggNvY7dEd1y94jhWKe3fdtuUE0Ub6ikdDUPhERDIWUrOGzoAtmZKDm0Opd49iNck1iZrrt/p3qGMqWOiBEMMbqZk9LJEGGC8rQTHKzQ5uu5Oh6tFKZrFo18RrsivJLU1tHUQsZSRRSFntQa2IMtw3seANSNd/6KFe83tSY/WEJkmklwidrMxkjAlc2MFpu9ofmAbYaX8ERO5tSYKCV8bsYHCY9sb3yxsfGCM/FNjtcizWm17ad6FNxOTt4YUeJTeQOr4WsdUy1OSaRsbXFjWxANaG2IaDZvV8JQpFrTi51jvM92fDOG00lYI5aWeSpLZRFA2V8QEYLWFslsjXaO21Lu9S0iY4TbXeZ79ktLVwh8nDimoXzTRNbM6maQXmNpMRi1LWuvm0/wAR1RNZrudRrf8AFUaZIMWF+GH+VgOygFnTlAcGhwNhZx7x4hR8uPvXqO/2tU8kkldXvewSSU0UrqRjohqbi7wMvthHRte+6l2TMzktMx3jw0OPudPhsVVUsDajyh0bX5Ax0kfDJ1AAuA7rt1d6hzZt2wxa0d9qaocIpBAQSSbHwWbofSuFe4xejZ9QLWHv09sMlSsoOL84jqaqdSyU4aGyBpfxPgkjpgZf8Jva6rNtS479Vxvx0s/KnGhRUr6jRxAAYDs5zjZo8OvwBUzOm+XJwpNmg5v+UlViD5HythbEwAdFpBLjra5cdAN/EKKzMsenzXyTMz4XdWdbzznXrn08lFPHbOx8pbcXF8rBqPWq2nTi6y014zCrfnMr+2n+b/uVeUuX8zJ/FjwfllVS4fV1TjFxIXNDLMsNct7i+u5VomdOinUXnFa0+YVz85lf20/zf9yrzlz/AJmT+LPze8sKmuqXRTmLKIi8ZW5TcPaN7ntKtW0y6emz3yW1ZXed73830DPtJFW/lh1vvUgqsOKUSuwFIlpqh0bhIxzmOabhzTYjwIRNZms7hny8o6x4LXVVSQdCOK7X6U21nqMkxqbSgw/F56cFsM0sQduGOLQe+w6+9FaZb09spIseqmNMbamoa11yQJHa5jcnfr6+1NpjPkiNRKGnxOaON0LJZWRv85jXENNxY3A7Rv2oiMtojjE9nagxeenBEM0sQcbkMcWgna5shTLekarOnWLEpmtkY2WVrZb8RocbPvvmHXdCMtoiY35SnG6kx8Dyifh2tkzuy27LX27tkT62TXHc6cV2NVM7BHLPNIwfBc8kabEgnX1oWzXtGpkqMaqZIxC+ed8Yt0HPcRpsCCdUJzXmNTPZxTYzURM4Uc8zGXvla8gXve4AOmuqFc16xqJ7JxylrBciqqddT7Y7XQDXXsA+RE/kZPuWLh2JzU5JgllhuLHI4tvba9t0VpktX2y70uMVET3SRzzMe/z3B5u79o319aJrmvWdxKWDlBVxlxZU1DS83cRI7pGwFzrvYAX7gm0xnyRvU+WuMhJzXN73vfW973v2360Zbne2bPjdS97JXTzufH5ji85m33ym+l+vtRpObJMxO+6LEMRmqHB00skpAsC9xdbuF9kVvktf3TtiooICAgkk2Pgs3Q+lcK9xi9Gz6gWsPfp7YZSlZ5lzxYNdsdY0be1SeBN2E+u4/eCpeHn9bj8XhU+UHKR9ZTUlMMxdGLP/AFn+5st2nL9LlWZ32c2XLN61q9g5JYMKKljg0zAZnntc7V33eAC0iNPUw4+FIhuVLV55zrwxvkomTPMUZfKHPAvlGVmtvG3yqtnF1cRPGJlV/YHCf8yk+b/tVdVc04sP+ax4RhdA3D6uNlY58LnN4kuSxjIy2AFter5VaIjTopTHGO0RbsrnsDhP+ZSfN/2quoc/pYP81n5vsMoYqlzqardUP4RBaWZbDO27r2HWB8qtER8OnpqY62/W21c53vfzfQM+0kVb+XP1vvUh2yrDiluMT5NmCmjq+PBI2XzGtzZjbR24t0etaaWydPxpFttETZHPoJUGi6GnGYdoQ1LkFDTf4VyVkqaaSqifG7hAl8XSzi1z2W1AJGql0U6ab0m8fDAwHCJK2dlPFbM65udmgC5cbdX3hGeLFOS3GG2/I54kma6opmRwFrZJnEhgc7QRi4uXfeE02/Enc941Hy1eN4QaV7GGSKVr4xIySMktLXOc2+o7WlJZZcXC2tt3NyJDBGX11C0StDo7lwzg2sRdveE03/D7R+0d1ZxGmMEskLi0uje5hI2Ja4tJF+rRHLek1tpBcb3ChXUl0NNzybwMVvFaJmxujjMgaWl2cNHSsRoLab9qlthw+puN94a2gpHzyMiiaXvebNaOv7h136rIzrSbW4x5WT8h3lxiZVUMlQL3gbJ07jdoJFsw7E06fw58RMb+lWlYWOLHAtc0kOadCCDYgjtUOWazHaWdgGGirnZBxWxF+jXFpcC7qbZvb27KV8OPnfjPZK/CA3ynNPA11O7KGONnS2eWnht9V/Wi3o+7v4anMO0Ix1LklQaFKBBJJsfBZuh9K4V7jF6Nn1AtYe/T2wylKyrc5VeyGglDwHGW0bGnrcTe/wC6AXfuhRbw5+pvFcc7+XjmAVTaapgnkbdjXhxuOq5GYduU6+LVlE93lY543iZfRUbwQCDcEXB7brZ7kTuHZEvNeeWJz/JGsa57i6WzWgknSPYDUqlnB1sTMViHnXsLU/Fqr5l/4VTTh9O/0t/J/Dpm4TXsMMzXuezK0xuDnWyea0i59StEdnVipaMNo0qHsLU/Fqr5l/4VXUuT07/S6c0+HzRVj3SQzRjgOF3xuaL8Rml3DdWrHd2dHS0W3MMPne9/N9Az7SRL+VOt96kOVYcUrhjVFK/C8PDIpXkGckNY5xAMlwTYda0+HTkpacNIiGxwyl8hoWvtNDOZ3MmdHCyd7bC7I3ZjZrS0tPeT3qfDTHT08XjvvuEuidNVQAUET5mMAdScSYvMQcWNjF8rHb2uL303RMR3m1e0f6bFlMIsTroWwsMLqUyujLAWudw292ly5+gOtynytFdZrRrtrbUcmMbnqW1r5GRPyUhc1nBblDmeaMtvo7kiWeHLa/OZjxH01/KaQ1GHUlXI1plMksbpGtDbtDjlDsoA6tPX2qJ8Ms374a3nyn5HV0lLQVNRGHEsnpzsbOAdZ7fDKSD2XSPC3TWmmK1o+4baDgUcsbqNwe6vqIi0N1MMHEY6RptsS4keA/VUto4453Tzaf8AxjVdTPBNW3pRWUstW5r4iHZg5oDw8ZQSBYjXuG3WVmbVtbtusz4V/lzhkdPLEIhIxskDJODIS50OZzuhrqBvp23UTDm6qkVtGvrws2NMb5Lh7H0ElW40zQCHyM4ZIaLEMFt+3sUy6clY4Uia7nTvyFieIn09YGxxw1MbInkNBMomJMINjmaXDU9V9+xC3TVnjNbx4nsxmTziOvqzEwVscjIw0Rg8GPNuxttRv07agXRXdtWtr9kuFTl8FTWSRPhqWiBhcyBr5AwsHtzY3gAZze5A2HckJpO6zaY/bslweRstY6RkU7HHDpOI58PC4rrgCQMbp0rdW9kTjmJybiPhXObKdsdc0PIY58T42E/Be4C3gdCPXZRDl6SYjL3Y+BcmqxtZFGYJmOZMwueWkNaGPBLs+xFhvfVIiTHhyRl8fK34li5dDiVRCI3iKoiMLjG14BJa2R7SRrrc3N7bqXXfJ+t7V+2JIwyVmE1OQZ5o43yua2wc4HVxDRa9j8ifSvHeTHbXljyB7qbGI3NJDJw5nQ1GaqJdY2vsAfDxSVdTNMkf1sJsVmY7CjliBqGsbO4wsu/NI1uUnLoLOJsLdqfTSbzHDt58o6SjipW18sbZI5GVZjDo4WyviiOrcrHmwaTpfsA7NCK0rTlMedqlyzmZJOx7IpYi6JhfniEXEddwMoYNAHabaXBUS4upmJt2hoUcySTY+CzdD6Vwr3GL0bPqBaw9+nthlKVni/ONibq6ubSxdIRuETR1F73AOPqNh6is7d5eV1V/UyRWG35y+TLYaOnkjHvcCJx7Wu2cf3/rlTaOzTqsOqRMfDec1mN+UUvAcbvgs3xYfMP0EfuqazuG3SZeVNT8LqrOt5zzu1b4HUcsbsj2OlLXWBscrBsdOtUs4estNeMwpf5d4h8Zd/Az8KrylyflZftaME5T1cmG1lQ+YukiewMdlb0b5L6Btjud1aJnTox5rzitMz3Vf8u8Q+Mu/gZ+FV5S5/ysn2tnNpylqquqdHPMZGiFzgC1o1D2C/RA7SrVmZdPS5r3tq0tNzve/m+gZ9pIov5Zdb71Icqw4pbFnKWsaABVVIAFgBI7S3VutNyR1OWPEoYMcqY3ulZUTte/z3B5u6wsC7XU2RWM+SJ3EkWN1LM+WonbxDd9pHdI2tcm+9tLpsjNeN9/KRnKOsbqKqpGgHujthew32Fz8qbTHUZPtFSY1UxZuHPNHncXOyvIzOO7jY6lEVzXr4lGcSm4XA4snCvfh5jlvmzXy7XvqiPUtNeO+zvT4zURx8Fk8zIzcZA8hvS3021uUTXNeteMT2QUVZJA7iRPfE6xGZhLTY7i4RWl7VncSzo+UlY1xcKqoBNrniO1sNL6ptpHUZI+WvnqHyPMj3ve8m5c4kuJ7STqjKbTM7ny2X5UVvxuq+cd96blr+Tl/wAkLseqiA01E5AdnAzmwdmz5t982t+1NonPfxsGOVIk4/lE/Ey5c+c5rXvlJvqL9SbR62Tly33dI8YqGymcTzCU6F+c5iOwm+o7k7nrXieW+6RnKCrDnPFTUBzrZncR1za9gddhc/Km5TGfJE7218jy4lziXEkkk7kk3JPfdQy3322E2P1T2cJ1TUOYRYtMjiCOw66juKnctZz5JjjMooMXqI4zCyaZkZBBYHkNObzhbbW6IjNescYnslhx6qYGtbUVDWsFmgPIDRa1gL6aImM+SPEux5R1dnDyqp6Xne2O10A117AB6k3J+Rk+3Soxypky8SonfkcHszPJyubs4XOhF903KJzXnW5cMxypEhmFROJCA0vznMQNgTfUdxQ9fJve+7Fq6uSZxkle+Rx3c9xcflPUilrTadyhRVJJsfBZuh9K4V7jF6Nn1AtYe/T2wySpWayHk7SMkEzKaBkgJIe1gBBN7m4G+pTTOMVIneu7Mr6Jk8boZGh7HjK5vaPUi1qxaNS1OC8kaWjlM0DXscWlp6biCCQdQ4nrAURGmePBSk7q3yls8851xEZKLygvEWeXOW+dbKzbvvZVs4us1+vLwrHCwP8ASV/8J/Cq9nN/xvuViwhmGex9WIn1Rp8zeMXDpg9G2UZfBWjWnRT0fTtx8K5wsD/SV38J/Cq9nP8A8f7lZ+b5mGipd5G+pdJwjcSCwy5236hreytGnT03pcv0Vzne9/N9Az7SRVv5c/W+9SCqw4pRLRgICAgICAg2eBYM6qMhzxxMiZnkkffK0XsNBqSf9kb4sM5N/UNdMA1xAcHAEgOGgcAbAgHWx3RlMd+zrdQjTJw2lE0rIs7I85yh7r5QTte2up09alalOVuKzSchS2Y0xraLjDTh5nZr5c9rZezVNOqek1OuUbU8OG6hxzEw5v1IaLoaFKBAQEBAQEBAQSSbHwWbofSuFe4xejZ9QLWHv09sMpSsICAgIPOOd+lfM6jijaXvc6UNaNycrDbXwVLOHrazbjEKN+Rtf8Vm/l/Eq8Zcf4+X6WrA+TtUzDK2B0EjZJHsLGG13WyXtrbqKtEdnTjxXjFaJjuqv5G1/wAVm/l/Eq8Zcv4+T6W7mx5P1VNVPkngfE0wuaC625ew20PcVasOvpMV6W3MNVzve/m+gZ9pIov5Zdb71IKrDilEtGAgICAgICC78g62aOkxDh/Aia9nQDukSQdwb6AaFTD0Okm0Y76ZJq5oKehfSRteakvfO4RNfxHmQXjd0TlAu4AC22myNNzFa8I8+W0qMtMMVbDFE+OB0EkTTGHNZI8AyW01ykA5dhZSvOq89R4efQVT6irZK/pPfNGTlFvht2A7gqvPrab5Yn+rNzk1FL5VUxmlk45ye3GV2U+1s6Qj2tYZfEJLp6u1ItMa7psexmaGho5AyMPmhkZJKYhmyh1g0aWFwb99gpXyZJrjrOvLb4nJBTyilEVRLTcEZYYqZj2SAx34olvmL765u0etGt+NJ1rtr6dDJDTCliYyeWB9Oxzo46VkrajO05nOkJzZ+vTbRCeNIrGu2vp5hOBmdlBDcxyg7gXNge+yh5NtbnSNFRAQEBAQEBBI4XBWboe44Ny6oDGxhnDHNY1pD2ubqGgbkW+laRMPXp1OPUd1io8Ugm1imhk/Ye139CrN4vWfEsxFxAQEFC5y8RFLPQVBaXiN8rsoNr9Bgtf1qtp04+qvwmtv6wvztM+KyfOD7lHOFPzq/R+dqP4rJ84PuTnB+dX6PztR/FZPnB9yc4Pzq/R+dqP4rJ84PuTnB+dH0pHLHlAMQqBOIzGBG1libnQuN7j9pVmdy48+X1LbaIqIYSiWjAQEBAQEBBnUOMVEDSyGeaJpNy1jy0EkAXIB3sB8iNK5b1jUSUGMVEALYZ5omu1IY8tBPbYdfeia5b1jUS5psZqI2mNk8zGuJLmh5AJd5xIvqT1oRmyRGoli0lS+Jwkjc6N7dnNNiLi2hHcSPWilbTWdx5SV9fLUODppJJXAZQXuLiBcm1z1alFr5LXndpS1mMVEzBHLPNIwEENc8kCwsNCULZb2jUz2dosbqWx8BtRO2O1sge4Nt2AX27kT62SK8d9nFLjVTEzhRzzxs16LXkDXewB0v3IVzXrGonswEZCAgICAgICAgmWboEHBaOwIM+kxqph9zqJ2dwkdb5L2U7lpGW8eJlu6TnCxCPeZsg/XY0/S2xU8pa16vJHy3dHzrzD3Wnif3tcW/QbqebaOut8w3VHzqUrvdIp4u+wePoN/oU84ax1tPmJVznM5R09c2nNO8vyGTMC1zSMwZbzh3FVtO2HVZqZIjSiKjiFIICAg4KQiUS0YCAgICAgICAgICAgICAgICAgICAgICAgmWboEBAQEBAQEBAQEBAQcFIRKJaMBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQd86ppp6hnTR6hnTR6hnTR6hnTR6hnTR6hnTR6hnTR6hnTR6hnTR6hnTR6hnTR6hnTR6gXpo5uiuzEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAUAgICAgICAgICAgICkEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBB//2Q==" alt="">
+                
+            </div>
+            <div class="parag">
+                <p><span class="rs">₹ 700  <span class="strike">  <s>₹1500</s></span></p></span><br>
+                <h1 class="graphic">Free Microsoft Excel Cources</h1><br>
+                 <div class="buybutton">Buy Now</div>
+
+
+
+            </div>
+
+        </div>
+        <div class="bb">
+            <div class="iimg">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBAQEA8VFRUXFRcWFRYXFRYVFhUYFRUWGRUWGRUYHSggGholHBUVIjEiJykrLi4vFyEzOD8sNygtLi0BCgoKDg0OGxAQGy0mICUvLS0tLS0tLTAtLy0tKy0tLS0tLS0tLS0vLS0tLzAtLS0rLS0yLS0tLy0tLS0tLS0tLf/AABEIAKgBLAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQQFAgMGBwj/xABDEAACAQMCBQMCBAIGCAUFAAABAgMABBESIQUGEzFBIlFhMnEHFIGRI0JScqHB0fAzU2KCsbLh8SSSosPSFhc0Y3P/xAAaAQEBAQEBAQEAAAAAAAAAAAAAAQIDBAUG/8QANxEAAgIBAwICCAYBBAIDAAAAAAECEQMSITEEQQVREyJhcYGhsfAUMpHB0eEGFSMzQlLxFiQ0/9oADAMBAAIRAxEAPwDzTFfojAVpEsDVAqzYEaywKgAUKgoURoAoDGoQKAVABoBUAVCiqAKoCgQqFFUAqAKAVAFAKgFUA6AKFCgFVAUAVAOgCgFQgUAUBYV3SOYVQKoyirJRGhAqAVCoKFEaAKAxqECgFQAaAVABqFFUAVQKgQUKKoBVQFAKoAoBUYA1AKgHQoUAUAUAUAUAqECgCgCgLCvScwpYFQojWGUVQBQgVCoVCiNAFAY1CBQCoANAKgA1CiqAKoFQBQoqgFVAUAqgCgFRgDUAqAdChQBSgFWgFSgFAFAKhAoAoCwNd5HMVQoVWwKslLvgXLklzh2bpxnsxGWb30L5HydvvXmz9VHHst2WjrIOX+FRemSOWVvP8Qg/spUV82fiUr5R2j082rokPypwa59MUsttJ41MXTPjIcn9tQrWPxKTdWn8jM8Mo8o4jmnla54dIEnAKNnpyr9D48b/AEt/sn+3vX1MOaOVXH9DkykrqAqFMaECoBUAUAqAKhRUAUAjQCoUKAKAVAKoAoBUYCpQDFa0geKUUMUotDxSi0GKUKFigoMVDIqAKhBUAUBPrtZzFUKFUpY8A4d+ZuEiP07s/wDVXcj9dh+tcOoy+jxt9+wW565yxwH8w7LkrGmOqy7E5Hpgj/oqFwSR7gV+dk3kk1e3f2s9caxxUu749i8zsYIjbAJHBAgxsBqBP3IBz2O53rSjXCRmUoy3k2YXfDUvABLDGRuC65EinAxpOPfOc/FSUNXKEcihvFv3djkbqxwZeE3p1xOuYX8gblGX2IwT8FSOxAreDNLHOr3XzQyxi0px4fyZ4vfWjwSyQyfVG7I3sSpxkfB7j71+jjJSSku55yOaoFQCoQKgQjUAqCgqFFQBQCoBUKgoAoBVAKgCgGBWtIDNUCIoAqFGKFQxQ2ZBaoFigoRFSiNGJqGRVCCqECgJ1dTAVQgoDrfw4kVbiYnv0Tp++oV8/wAQ4j8So9l5MiJ4eem2mR2nOrGrS+tlVivnGF2+K+Lg/L8X9T1dR+evYvoa5+J3isyan9L4yLKRgwDEbEPjcDOfY/IrucDZw68vZJdBcgd8taOi7HdQ+vHbt/fg0BB/EFAJLNx9QMn/AJVCN/xH9tcZf8kfidof8cvgeLc8EG/mYfzCIn7mJP8ApX6HpG/Qx++553yUNegBQCNCCpQFUooVAKjAqgCoBUAUAjQojQAagJQ4fIEjmkjdYXcIJCpw3ltP9LAz22rOpcLkF1YcvreXjRWmsQkkqzKWKoq7uw+SDj+sKmvRHVLkGniPAjC7xkhtJALLkrnGcZP6j9DVWTUrBTXMGk10TsGihR0AwaFRnj3qm0OhoKACKEZgwo0YZhWTIVCCqAnV1MBQoVQTeDXxglV/HY/Y15esxuePbsEz2Tk3itu2EmxodtUbEkCOVgBJGSDtqwGXx3r8+nolT4fB65L0kU1yufd5nVz8JC5JeML9IBRzgb6RtJvt5+M12POEHC0UF5XjKaTqIV4xjHkmTAH6UboqV7I4rmG+ScvJH6YVUpGxJ+ksGmmOd8HSAPgVyxp5J6l7kdsnqQ0d+X/B4/xW7608suMBm9I8hQAqA/OkLX6fFDRBR8jy9yLWyioAoAxVAqgClAVSgKoURqUAqAVAFQGJoCztpI47aRtUZduohRo9cmCiiMqWGEAYu2oHOUUe1YduQO+5w4hbXcFnbQvrMZRn0j0qBGV05Pc79q82GMoybYLPljgLFpFhJSJ10uxGSV8hSRsTv2pOV1ZlujrDynYmPpmAHb6snX99VY1yMamcLzJ+FdwQ7WsqyeVjf0vj+t2P7CusOoj3NpnnvFuXLu1bTPCyHwTgq39VhkGvQpxfBqyqrZQoU3QLrZVJ+KcFss7rhJAytZUyqRWupXYitGrMa0RsRFDLNbVloyI1GQVQE2uhix0KKqANEQ66xWeDLRAMp2ZDgqw74wdiP2I8V+Wxv0ial5ntzx9FNOJ6l+HPEmmgkJSX0OVEZdmxtF9AfcKNR2ya1GKjsjjOevdlbz/xSKO4RLiR9HTV+lkkE65B9PbPpA/So4KT3NRyOCqJwPMvH2u4ZBGnTiXAxndtx9R/XtXo6WT/ABMI+/6MqgvRSn3ONr9CeYKFCqAoBVQGKAVChUAqgDFZAsUAsVChioDBzgE/FCHdc28rW9olrDGwM7P/ABEZlMoBQYZsHCKX1YG22D748uLK5Nt8FOh4Nyv+XaHWwcs3rCjK4UqdO/1VzeTUmQ7bh/EFe5ZFVhhdOA3owvYhOwOxG39tafTShj1t+R878dGWVYlHu9/ci7lkVAMkgtspxnHzj9a8+mUrrsa6jrcXTOKyX63FKyiFlIk+UlJ0sC3U+k7/AMsgyVPw2c/FdU2se/ft3JHrYyzSxuLVd+39FrxQwSQsssSSxnuPY+M5Gx/QVzhCeqrpnfD1OLNHVjdo8A/ELgkNndotvqEcsQlCsdRQmSRCuryMx5BO+9e/HJtVLsemLs56WAqM5pHIpOjVFlwHg807ao0JC7n2x9/Fab3o45s+PDHVN0dEgyoI3BAP7iuJ0It1Yo47b1pSotlBxGxMRHse1doysqZDrQMWoyGFYIKoCbXQwFAFUCoCyk47cHbWB52Uf3148fQYIXS59p0nllP8xJs+bb+GJoorlkDMWJXAfcKMBxuB6R2rp+FxXekxbNPFuZLu6KNPLrZV0atKgkZJGrA3OSd/mi6TCr9Utshfnn0NHtpY5O3nb/CpHo8UciyJbo0sstGjsRq9RgVCjqgKICqgDQCoAoUKhRUAVkBioUWKANI8/wDDNZFF9wy20iOZmBkdte7am2Zt2HjOFOTucmuUn2FHoktrJLYmYykStLCsLZ0lWMyKSmPPqYY9ga4wpSoxJ7l7yPwt1jSeSUlmQ5G+Mlt2Yk99gABgDx3qZcrrSed4cayekS3qjpZ+IDSVXuB98b/HY7+Mj5rhHE7tk16uV9/fkV0FxhUOfJ/5jn6f8P8AGvRKFto5f9Pvz9n39TRxy+jjQvI4jiGcedW/ZFH1tt7fcisQde1nTFgjB1BJJdjxDjl1NxG+aRYzjZI07lI12QHHdjux+WavQlpj7T1XGCtukdjyx+HDSnNyfY6B49snx/b+lYlKMEmzwS62WeTh03xk+F/J2l1wc20TIsQVADjT23Hc/P3rrizQm9uT4HW9P1MHry7q+b+6PKbO4UouG3AAPtsPasNbn64kE57/AOfsahLKDj53H+fFdsZpFRXQojQhiayDGsgmV0MDoAoCXwuwM8mgMEVUeSR2BIjjjUs7kDc4A2A7kgeakpaVf3YJ0HARcBTZStKerHCySRiB1abUIm2kdSjFWGdQIOMjcGsPLp/Mq+fHPkDXFy7O2cNDjX01JuIgssmlWMcTFsSMNag42BOM1XlivP8AR7e8Ga8sXWp0KxqwkkiVWljVpXhYrIsSscvgjGexOwydqnpofa4vzApeX2/hlJECG3gleSWRIkRrhCyx6mO5OlsAZOFJ7Amqsq3vza2347gi2/B5WuTaviJ11GQscrGkcZkkclc6lCKWGM52x3FaeRKOpb/uKJvD+D21xNbRw3jHqXEULK8IikAkbHVQCR1ZR5BIIJG2DWZ5JRTbXa+fl2NEW24FcPEsoCZaMypGZEE0ka51SJCTqZRpc9skKSMitPLFOvn2/UlmqXhMyvNGVGqKJZXAIOEfpaSPc/xo9h7/ABVU40n5/wB/wCfLyxLHDdyyugaBYyyJLHI6O88UXTlVSShw7H7pg+1ZWZOSS7/x2BRGuxRUAUKFAFQoUZRVAh1GaCoC24KyggkZHnBxn9cGuU0U9l5RvIJraOEka01bZw3qLepD3BwxGRuK8kk0zhJPk6KNEjSOFAFAHpUbYVfSAB8YNY3bbMFeqElzjxuTgAbg7k9h+uPbeu8pJJWclFuTNM99DEv1iRgCQT9I79gfq899viuLnKT22R0UEkef80cS6utmbUcruTnw23wPiuuONHRc/qQvw5cG6mP/AOpv+aP/ABr0xR8nxqVdOvevoz2jhUawxFndQT6jk4wD/wBsfpXgzyeSdRRvoMa6Xp7yNK92/ec9zDzKs0Zjt8dPJBmfIjJHhAPVKR3wvtuRXXDi9G9UufIZ4T6xKCWmF3b5fuXZe1/oePX3LNzCDPayfmIxu+hSJI8/04ck4/2lJFehST2Z9OzHhN88qyMEJEYDORuACwUHHncgbVmSUXXmaog8bkBI9wdx5GK6QREVVdCgaAwrIFWQTBXQwFAFAS+GX5gk1hQ6lHjkRiQskcilXQkbjIOxG4IB8VmUdSBZ8P5hS2aI21syqJo5pA8/UeUwljHHrWNVRAWY7KSSQSTgCsyxa/zPtXH9giWHE4lgigntzKIZGkiIl6WNYTWjjQ2tCY1OxVhvvvtqUG5Np1fOwJnEOYorly9xZ6yJbiSMCYogFxK0vTlATVIFd2IKtGTnBrMcTgqi/Lt5bbfbKbbPm9406ehwnSt48xTdKTVbIyK4cxsMMHbKlT4wdqy8Cbv2vt5/EFc3HHN494UBLFg0bs8itG8ZiaJnY62BjJXOc+RjAA6ejWjR9+Ys22XGYIJYJYLMgxzxzEyT9V26bZESuI1EaHydLMdt9sGSxykmnLtXH9hMztOYQggkNvm4hg6EcvVxHpCuqO0GglnVXIGHAOASD5PFdq9m7r+wZNzIuJXFsRcSQRwtL1soOkYdMiw9PZj0EyCxHtjtT0PCvZNuq87737QK+4/FIt7otNEl1pMr9cuqsJ0mbpx9MFVZkOQzMRkYO2DY4mtNvj2eyvMFBXYoUA6FFQBQoVAbbSHW4WsydI0dHw7ltppI4lwC5ABPYZ9682bOscHPmix3dHoPBfwzsoW6kxNwwGythYgQN8qPr+xOPvX5/P4xlnFqFL4/v/H6npWJJq/v79p5/wA66IeJ3aIoVdSNpUYALRIzYA7ZZif1r6/hs5ZOlhKXO/1ZjKkpUjXBdyCPqqr6VIBcA6VJ7AuNga9WnscC+sfxEuRGyyW63IjGoOSyug8lin1Lt8fesvDTtOrI4JlZNzvcXGoyPgDSVRRpRcuo2A879zk/enoUjnJVX32Ij8xMdAyd45D+3V/+Na9GR9/h+xT3vEWdH3/mj85/kf8AwraijSW/6l/+GM5W4m0oXbpEhRgY9ceWZjsqjyft3JAo5KPJ4PEeml1GNRj59zrL/imsYdhNjsnq/Lr7+k+qX7thexCnaublfGxnpuhhhStuTXd9vcuxXs007EnU5C7nv5AChR3JJ+lR422G8PY5RWza/U6PgXKblllmcxY3AUgSfOW7KPfG/wDVrnLJ2RSFzJzNw62NybSNJJtPrKAdMybheoR9XY5wc+9bhGdU3SOOTBryQk1x7f2r+DySGCWdyVUsxJJ+5Oa9DaXJ6kqVEi74LcRDLxECpGcXwCvrYMKyUVZITK6GQoQKFJfC7MTO6kkaYLiXb3gt5ZVH2JjAPwazKVfqvm6BOvOXJI1kJuIC0cccskYaUvHFL09Mjfw8EDqpkKSwBzisxzJ1swT+P8rCKScW80ZSKVbYBncyyzlQdCr0gNR9vpH9KsY81palyr+H6lIcnK0uJdE9vI0UkcUiI76kklk6arl0VWGrYspK7Het+mjtae+4N0XKwEk0Ut5ApjgmkJXrHS0JAKuhiDqN8507genNZebZNJ7tL9fiCHLy7IqB+tCSbb81oDOXEOlSGPowCdWAM529sE9FlTdU+a+INVrwOR0WVpI44jF1mkcvpRTPJAqkIrMXLxNhVB2398HkSdd7r5WCS3L6iCWU3cJZZ4okCl3SUTRPIrK6ocE6Rs2MaXDYOAYsvrJU+G/0YNdny3PLNLApj1R3CWzZYhTJJJJGpB0/TmJt/bG1WWaMUm+6sGy05Zkk3W4g0tJ0o3zKUlkCoWCFYzhVLqpdtK5OxI3o8yXZ+fbb5gr7WKFHlF2JB0ww6aEK7SK4UxlyrBAPWScH6MDciuj1NLR3+gRd33ArS11vcGcp1ooVRWjWSItbpNN1CUYM0fUCaQFyVbcdq4xyzntGuG+9c0q95UYWvArb8xLZySyGZJLpHkXSkUC2wbErqykurFGJwy6Rjck1ZZZadaW23vd9vtFMeIcARLZZIkd3/LwzufzUB0iRUaRvyoj6mhSxXOrbudqRytyp+bXD+vmEc3XcoVAdP+HHD1uL9I3+kI7H504/xrjnlUDOSWmLaPdIeCQRgMka5G4IUE/oSC39tfG6ibeOSJhb1puX0r7+JSc3cYuLWKJbW1600rlEG50+nJZlHcDA8jv3r5nQ+GPIv931V8/4R7p9VDU1F3X6HJWPJJlla74rL1ZXIJijIVRgAAO6+wAGlfbua/S4cahBY8SqK8z4PW+M48baj60vl8WWPOZA4ZdIihEVECogCoo60fZRXbQo17zweGdZl6jq7m+z27djz7ly9iS0vUK+t1IZtOdUej6AdQwcgn23H6WVbbH2ckMss0WpNQrdLu7tfAoLQ7P/ALnv/rE9t/2qnaXb4/Qa94//AOUv/v0J5/D9jEgEEFsaihUkkqdCkFS3g+sfAx7b0L3JPCrme0lE0cpicDYrh2YdyNGcMu2d9tvio0mqY1Jnc2fMlnd4/N4gkOB+ZiB6LE/61O6HPk+3euTg1wZL/jt3Y2ccCW90nWZ105OvUSQFZtGyIPsBgnG/eY5zSla2PPl6SObJCcv+v39TguaOcrydpbaZ8Rq7IwjyhbSxBJPkf7JHbHnetY4xpSR63DSygit5ADFGjSGQBgqqxkAXPeMZI7/I9jXR+bIpX8CdY3U3DpB1IWVs7K6lOx+R6h9qy4qaF3wWHHudprpdLKNtvH91ZjhUdwklwcoTXYGNZKKoUl5roYChB0BIsbwwszKAS0U0W/tPC8TH7gSEj5FSUb+XydlJM/GXd7mQouZrdbdhvhVVYVDD5/gL+5rKxpJLyd/X+QbuI8xSzGRtKozXf5sFc5WQLpAGfA770jiUf0optuOZAyTqllAhneOSY5kcO0cvU+h2IVC2coPf7Yixbq5Pbjj3A2zc2u7Jm3QxiKaIxtJM+pJwodeoza1UaF0qDhd++TWVgSXO9p9u3sIQouPMJVkMSMothatGS2l4gmggsDqDYAOQdiB9q6eiVVfe/iDc3MeQIzaxdDorCYA0gBVJ5J0fqatYkDSNvnBydt9p6Lve93fwoEd+NZSeMW8So7xOgTWvReFHRGU6vWdLtnXnJOa16PdO/wC7++xSxj5vZZGlS0hR3uIrmVg0p6kkTO3ZmIRS0jHSPf7Yw+ntU5PZUuAReB8zS2sKwhdao5kjHVmjCswUNqETqJEOhTpPzgjJzvJhU3f8fvwCNwbjBt5zcGFJX9RGvVhXY56i6SPWN8HxnI3ANXJj1R03RTfDx9V1qbOJ4zIswjd5mCzKCDJr16m1Z9SsSDgdqy8T/wDLfjtx5Ayh5j/hzxyW0chnkaSeQvKjylmLaWMbD0BjnT2zuckCjxbpp1XHAI8fGdELRpbQpI0XQeZQ4Zo9tWU1aNbAAF8ZIz5Oarx3K29ruvb99ilTXQBms2U6r8MZNPEU9RXMcgD+EPpIJ/2cjB/rVjIrjxfsPN1brE3q08b+Xv8AYe3veMn+lEf+7uW+cf3mvEsSl+S/ifJl1csH/wChR9mnl/Dt72QZbtpSRnSoG+Pb2/6V6I4owV8s+Zm8Qy9R6q9WHs+/kjTNpGxVl9sENn4PtW46nunZ5JxhDaUWvmc9zyuLC9X2QD9po6rdqLPpeDx09Y4+Sf7HmfAo1a3vlKkuyIIdyBnLa+3c4wP1rnlb1Rri9z9bHTTv4ECG2dNYZCDhSBvk4kUnGN+wPbeulo4z7ffY1Iw9OSVK50uu4wWY4YdxuW+ceDQUTbDhk1wwSKIliQAyAGJu5AYdhkqfjOBgVJTUVbKrbpf2QnKJlSMnswX0gEZB9RBJO52wB96pN2ZpknUjEnyR/pAMjOpP5xj229/ag42f9f0a2RCMnCZ/mAJjJPggbqftn7CqVWjNnVDtnVncn69iM4G/T877n7VBu/v7s9l/B1YfyOrQokZ31k41PhiA2T9XbHwQfevL1Cld9jy5MkVk0N9uP48/2Oi5uNo1vIlwqkYLY9JPpBOoAdsYzn4rnihP8yHpIqaS2f1+CPLOaYeGCP8A8Od8ecd6743kvc9KvucA3evQzQqyBUKSq6HMKAdAbLeBpHSNBlnYKv3YgD+01zzZY4ccsk+Ipt/A1GLk0l3Ok4/yzFBNaLFKzxSzdB2OnKyLKEdRgd9zj+qa+B4d41l6jBmllgozhHWlvvFxtP8An3nry9NGEoqLtN18bMLDl2KTiU1kXfQgfBGnWdAXHjHn2rp1Xi+XF4Zj6xRWqWnZ3Sv5khgjLM8fZX8jXNy4JJmjgWWFY4+pM13oj6YJOD6M7EA/sa1Dxj0WFZM7jNylUFiuV1zz5EfT3Ko2q51djTc8q3EYnYtGVjhE4dWLLJGc4KEDc7ecePeu2Lxzp8jxpJ3OThTVOMl5kl001d9lY7PlSeXoBXjHVgadckjCqVBBONj6x8VMvjvT4lNyjL1J+jdLvvxvxsI9LOVVW6sy/wDpG4MkCRvFIsqsyyo+YwI8ayWx4yPvWf8AX+mWPJOalFwaTi161y4pe0fhZ2kqd9+xLuOUv/D2vRdJZpp2jDJIGiKBXbIONsaN/sa82Lx//wCxm9NFxxwgpU41K20q+N7HR9L6kdLtt/Awi5MfVGWuoDGZ1hZkctgnuO2A3gA+SPetz/yPHpmo4pqag5pSVbLjvx3vysi6R7W1V1sZ3nL0cK8RRAsxiaERuJDrQyylNBULpZ9hkHGMis4PGJ5p9NOTcFNTclp2emKd23aXkWXTqKmlvVVv5kLiHKc8MbuZIXMenrRo+p4tf0llx2r19N4902fJGCjJKV6W1SlXNHOfTTim9tufYbOI8nTwrOTLC5hXW6K5LhMZ16SNh37+1Y6b/IemzyxpRmlN0m1tfldmp9LKKbtbEbi3LM1tF1JJIsjSWjD/AMRQ/wBJwRv+mcV36PxrB1WX0eOMq3qTWzrn3fEzk6eUI22ikr6tnARqWUWayDqPw0kxxKLdQSkiqrfS5K/6M/cZx8gVidVv8u3tOHUxk8TUUm/J8P2HsPEtn7Y9K7e23amDeP6n47xPbPxW0dvLbgQ9BCKMnILeSSP7hk1PzJyZzi3CahFXTTfv/q/13EqjKqo1kdlG4z7sR3+w2271bdNvZffBuMNUlDGtTXC/dv8Abj2nKfiLxG3htZ7Zpg9zKFAiT1FP4iMzSMNlOAdu5rKnra0rZdz7/hvh08E/S5H6z/c5TlTjjWgy1tq+4yKxlhq7n2GrVEbmfiy3eX6fR37kYU7/AMuN9X2B+4q44US2tuTn5Zh6Sc/LEAvIPcr9JAIPck79z46kS+/Ivvw54xJbXgVFBSVCsinzoQsrA9wdQP6MR7Yeh9K1G6OfVzUMUpSV/wDsq+YZBNd3LkhHMr5HZCQcZDfy9ux/eiho9XyN48jnBSrlL6Ft+GvCYZ+JRpdAhEUvg7BnGOmrE+Dk498ACuPUSksb0nVNe82ca5TuUkuWiUTRozHXAweZIiToM0YAO67EbHZs7CkM0WlexmqOTaHA1Ahl/pLuPsfIPwa7BSR7J+FO/DkUhG9ch0SHSfrPqRvbbBHuPmuWTZ3uvav3R8jxBasmmoy24lt8Yv6k3nFNNneKEjjLQyAKh6kr+k7Z8L5P2rpF6ldt157Jf2Y6aPo5pKMY32Ttv+jxnjfDJbSd7ebGtNOcZx6lDDGQPf8AsNITU46kfclHS6IFCBQpmYm9qUDbXQ5joAq0UsOAcRW1uEnaPqaNRVdWkaipAJOD2ydvtXh8S6KXWdO8ClpurdXtdtfE64cixzUmrotW5ueSMJPBGxWeOdGQCPDI4LZAByWGRn58181f4/HHkc8OSSUoSg1L1tmqW+3Hkdn1baqS7p7bGm15k6d/Ne9LPUDjRqxjWAPqxvjHtXXP4P6XoMfR6/y6d650+y+5mPUacryVzfzIvBONmDrLMhnjmQRyqzsGIXOkh9yCMn9679f4Ys/o54X6OeNtxaSa35TXtM4s2m1LdPksxzgNRQ2o/LGD8uIQ5BCDsepjOrx/nf5//wAfagpRy/7qn6TXWzb59XyO34pXTj6tVXsGOb1DRlLXSqW0luq9QnAcphtRXJxo/XNF4BNxkp5bcsiyN6a4var738CfilaqPCrk0cH5qNtFaxCEMIusr5bHUSdtRHb0kbe/auvWeBLqcubK5056GtvyuCpPne/gZx9VojGNcX8zcnNyRC2W1tBGsErSKpkL6g6OrKSRnJ1nffG1cpf4/PO8supzankiotqKVNNNNb8bcG11SioqEap+Zrn5niWIRW1mIgLhLgfxC+WQg4II7bAbdgK6Q8EzTyvL1GbW3jlj/LWz223+O/LI+pio6YRre+RXXNKn82YrfptO0MhPULhZIZDJrwRuCdIxtjHzVxeByXoVlyaljU48VcZR01z28yPqV62lVdP4p2PiPNaSJcdK0EctxpE8nUZgwXwqkenO/wC/mp03gU8c8fpMuqGK9EdKVX5vvRZ9SmnUab5NV1zPrnv5ujj8zAYca/oyirqzj1fTnG1axeC+j6fp8Ov/AIp6rrnduudufaSXU3Kcq/MqMuLc1ie0NsLfTnRkmVpFTpkH+GrDK5xg79qz0fgkun6v8Q8l1fEUm7/8mtnXuLk6lSx6a+f0OZJr79nlFmoBVABNAe+2TloLVmJJNvCSSckkxLkknuazi/L8WfjPF031bS8l9DdxG7jt0D3kwiU9k26smPAQbn7ntXN5Ip1BW/kj2dN4Xnyq8zpeXd+/+7PPOa+frhsQ2atbQsD6x/pZMZyOp/L9l3Ge9Iw1O5u2ffw9Pjwx041RU/h7YWtxcyC9k0QrGzu5IUfUoALnsSWPbfbar1EpRitPNnpilvZ6Pyy1ndBoooQWGTk/yjO2fc/4V5JKS3ZzyOmtyBzR+Gksys8Uy6gMhWXA28agTj9q6Y81bMzr0rdHj8ivGzxsMEMVZTvhhlTt7jfevWtzrySuFXYhnjmUbqT6ScbMGUgMfZT58+9ZnHVFosXpdsz4UIZbyP8AOuyRPLmZhsQGJJ8bbkeNgakrUfV5HuPc+F9CFIfycEaQjJQDEgcYwWL5OSd98k7nfeuawKSep2z4vW+JTwS0qNP29ydoieKWCNha6slQi6VJzkszDck7j9fNY9HKDUktRmPWRzTayT0+SXeu7f7bHB8xcNgult4rWRPzKKVeRIjGhVNh1Ae7ZTT2PcZ2AzcGtzblwz6XU5sXTYVJ7pV79/3KLhXMN5wnNtNbpoLFgrqTESe5jdd0zgZxkfC713ljt2nTOS/D9XC1Ul80bL7nm6lwkdvHbZIbXGOpqCtq3kbbTkDf9CDuKuhv8zbOmLp8OHfHFL6lV+IXMH5+4hfpBOnAsY9WotuWyTgf0jtXLFj0Jqz1HLV1A1ODQEnNaAq0ZCqgOqQ22ds00kcSfU7Kg87sQM/Yd/0rj1GeODFLLPiKbfwRqEHKSiu50vNPL0MbW5s2JR5Wt2LNkLMr6dz4B9X/AJa+B4R4vnywy/i1UoxU1S5g1f6/yevqOnjFx9Hw3XxNV5yc8c8EAuULSOY/UjxlSqliwDfWmAcMPOB5rpi/yGE+nnneNpRSezTu3VWuH5pkl0rU1G+TF+UW64hW4TT03lkdlaMxJGQGLxtuO4x77nxWl49D0HpZY5XqUYxTT1N8VJbe/wAh+FerTfa/cC8oO0kIiuI3hkjeQTgEKqxECTKnfILKMfPjBqPx/HHHN5MclOMlHRtdy4p8b0yfhW2qapq79xs4dwWJWuNMsF0n5OaVW39BTR3TOUf1bZ+a5dT4llnHFcZ4peljFrbe778Nbb0ahhitVNSWlsztuSSzJG15EkzR9UxaWLKuPfOCf870yf5JCKc44ZPHq0qdqm/qF0bezkrq6MZeWIng4cYJh1rkHKtnDbAuR/RCDIPv4pj8cyQ6jqlnh/t4u6q15J+bl28u4fTJxhoe8vv5EPj/ACvJaRLN1Oohcxk9N4irAE/S/dTg4YbV7PDvGsfWZXi06ZVqW6la967+wxl6Z446rtFBX2bPOFSwKslETQCqAVAGagEaA9Js/wAQZXitLSxt1S46aRGaUhgpRMZjXt2XOT+xrl6Ft03t5HkywxYdXUSW9c9ybr4Y0rW3ELuVWExnWVz/APkI6Kul5CMrpZXAG2Adu5xiWPLDt2/Q6Y80Mq1Q4utzfz5x7hbcMaystEnqTR0wSsbCRSW1/wBMjI75OT81jFCevVI6WedcCEbS9GeQxxH1SEAZzGrae/Y+ph/vV6slqNxVv+TeNJum9jpPwf4gsd5KpkUM8YCK50iQhskBvD+R771nOouO/wD6PN1Kyabxq2nw9r+PZnrvEeJSRoWZFjUDLPLIoRR5Jx3rzwx4+XK/ctzxrL1E/V9G172q+R838QYSTTyBsq0sjBztkFyc/fBBx33r1o+otlT5EIgm7HT7ZGXPfdUPYEY3b22oLvj7+/YJdEjBQCrHYEkvq/rec/I/ag3RZ8I43e8NciNsLqOqNvVE5Bwcr4b5GGHmsuKe5ieOGVaZKz0Xl/nG1vMRk9CY7aHb0sT/AKuU7Z37Ng/erra/N+qPgdT4RLG9eDfn1X+x2PD+WY1LTyhUJ3Y7ajnBJJ7LnG+K8s+pjD1caOuPoup6lX1Uqi/+v3x8zlOfucbKSznsbSJZi2U1ekojA41K++XHceTVxYcjmpzZ9fFjxYY6MapHkXQIGl30Z30nJOfcqPp+53+K9r2R1vujZdW8rnX0mIwPUBqUgDGQw2NcrSNJkGqU2owxWlVAzzWjIUJQxVQCqQncE4kbWdZ1jV2UNpDEgAsCurb2BP714vEOiXW4HglJpOrruk7o64srxy1JFhNzZcSwmGcJN60kVnVfSUOcaVADBtwc+Ca8WPwLp8Ob0uBuHquLSb3T9rbaa7HV9VOUdMt97Nt7zc8nQH5aILHIZdB1SKzFSuMMfSuGOAOxwfFccHgEMXpH6WVzio2qTSTvty/NvlGpdU5V6qpb+ZlLznMZI3EMYRI5IjGxaQOkpUuGdjkjKrj2xWI/47hWKUXN6nJS1JJU43TSW3ffzK+rladbVVe8wHN8qyRNHBEkUaPGsABKFJCDICe5JKqc/H3zv/QMUsc1knKU5NSc+9x4rttZPxUlJNJUlVe81HmYgv07WGNGt5LcImRhZdOpi3dm9I710/0bUo+kyylJTjkt+cbpVwlv2M/iOaikqr9SXbc7SIUdrWF5Vj6RmOQ7JjYHHY+f8K88/wDG4SThHLJQ1alDakzourfOlXVWQbTmaWKG1jWOMvbsTFKQdQDH1oR2IIOD8fvXqzeC4smXNNyenKvWj2tcO+bXJzXUSjGKrePDMOPcwtdKqdFIlDFzpLMWY57s3Ybn01rw/wAKj0cnNzcm1W6SSXuXf2jLneRVVFLX1bOAs0AqgCgCoQxoUKEFQpacsRobqIyTdFF1O0mkuUCKSWCjudv+9Zk2laMzipRcZcM9Zurbhdm5u7i8W5jkUmK2RVczal0sWG505/l2UHfv28ksmbLtVe3yOeLFHFFRieacc4cxmE1navDG66hHqL6MswK5PcYUHG4GfavRF0qbtnXatyvnCEASEB+x07qMZ2zvpOT41D7V3XByVrjghzWjDxkYz47AAk+xXfv22qm1JM2hCQC7alB7sxMYIJGB5bx9PvUorkboUL46HrfzkAOMDHoXtjAHbLVHXcz7+C65R5Xae8RbqNtGHbBJHUZVyqFu+5/fGPNc5TXZmOonLHhlKCtpbHqFjY20LLm2jVVydIhXIIB0kKBnIODtvt71rLjUoPSfl+l8SzrqYvLN1e6/o8y54SFbxpIVaISs/VjcZUusjamG5ByCp+CT2rnB1E/WpN/mKhbWLOoHQcfST6D9mO4/X96uqze6Js93dyILdriYxAZ6Rc6MfO/0/rioklvW5HXJVZjiZijamGdu0eADkE/z9u2w3813jbW5iScvd8yHIpBIIwc7iq+DaLaw5muYIWgRl0HvlQT+9cXjTdjSrsp2bJJPc1ujVABQG2tkHSjAVUArRAqFCgCoBUKFQBVAVShUIY1koZqEFUKBNCCoBUKFAxUCCgMkkK50nGQVP2YYI/UGowS7biGgwnTnQpX75lkfP/rx+lRq0KOvm/EHVB0eivbGcDP71wWHezOlXZxVxP1GLYxXqhwVoUUxXYYI8qQCp+cHz81ujLRjLIWOWOf7vgDwPilFW3BL4Tf9Bw+nNZlC0U6zif4gvLGqCMKR2YDBB98iuC6emZUVuVn/ANweKadP5o48HQmofrit+iiY/D47uvqV9xxZ7lYhcPraMsFZiSxDsG3+x7fFY0aW2u56L9VR8iHf529q3ANbFvy1wG6ulPS3Qb4J2/as5JpbMzaStkHjFmIGKOPXnx27e/nfx8VvG73Kyudie/bfHsMknAHgZJrowkYqN6zRuKtmzQParR10o1VDgBBoKN1bMBQBVIFAKoUKpAqFCoAqgWahQoANRgxrIAmhBUAqAKFCgFQBQCqAKAKAYoA1VrUxQZpqZKDNNbFGQradkEaFMoSAw1dq5vgpNFwGOnGfmsJNG0SLbjMsB0xyMo+DRwT5NbdyvubhpXLOxOfeusVSMbNjxVPRSqjEKBUIopDqmjHQKhnQjKhoxrR4goUKAKAKECgFQBUAULYUKFAKstgRNQgqAVAFAFAKhQoBVAFAFAFAFAFAFAFANTVXIZka6mTGsMoZqGgzQDqg2qap1jKkJ3oJZPIx1mhjWzNWzQ6KdgTQagqnnChAzSwKpaAUAUAUAqAKAM0KBNZbKY1CBQCoAoAoBUAUKFQCoAoAoAoAoAoAoAoAoDYa6oyYmoyirJRVAbBXXsaseaCzA1kgUINaIqHmtFP/2Q==" alt="">
+                
+            </div>
+            <div class="parag">
+
+
+
+                <p><span class="rs">₹ 17,993  <span class="strike"> <s>₹20,000</s></span></p></span><br>
+                <h1 class="graphic">Oracle Cloud Infrastructure Foundations</h1><br>
+                 <div class="buybutton">Buy Now</div>
+            </div>
+
+
+        </div>
+     
+      </div>
+     <div class="vie">
+      <div class="viewmore">View More<i class="ri-arrow-right-line"></i></div>
+</div>
+   
+
+
+
+<br>
+
+  <div class="ex">
+    <div class="e">
+    <div class="x">
+        <div class="oo"><i class="ri-radio-button-fill"></i>Apply cupon code</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Enjoy Exclusive Discount</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Apply cupon code</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Enjoy Exclusive Discount</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Apply cupon code</div>
+        
+        <div class="oo"><i class="ri-radio-button-fill"></i>Enjoy Exclusive Discount</div>
+    
+        <div class="oo"><i class="ri-radio-button-fill"></i>Apply cupon code</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Enjoy Exclusive Discount</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Apply cupon code</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Enjoy Exclusive Discount</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Apply cupon code</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Enjoy Exclusive Discount</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Apply cupon code</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Enjoy Exclusive Discount</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Apply cupon code</div>
+        <div class="oo"><i class="ri-radio-button-fill"></i>Enjoy Exclusive Discount</div>
+
+
+
+
+
+    </div>
+    
+      
+
+    </div>
+       
+     
+
+  </div>
+
+   <br>
+   <div class="asset">
+    <p class="ass">Assets Gallary</p>
+    </div>
+    <br>
+     <div class="gall">
+        <div class="ga"><img src="https://img.freepik.com/premium-vector/blue-water-surface-background_74563-1368.jpg?t=st=1730795883~exp=1730796483~hmac=07aa216d1017a01fe9c6b9098f6819ecae14211a9b07ef7e639c0c29e533fcb3" alt=""><br><p class="digi">Digital Assets<br><p class="rs">₹ 200<p></p></div>
+        <div class="ga"><img src="https://img.freepik.com/free-vector/colorful-acrylic-brush-stroke-background_53876-96581.jpg?t=st=1730795883~exp=1730796483~hmac=7c16895746b2fbd343dc7cb4c3c1856788f8d12c9e04770975849fcb70c16a01" alt=""><br><p class="digi">Digital Assets-2<br><p class="rs">₹ 500</p></div>
+        <div class="ga"><img src="https://res.cloudinary.com/dwgelsvcd/image/upload/v1732680918/mzrfvysjyfvyxumox7vk.jpg" alt=""><br><p class="digii">Photoshop ShortCuts<br><p class="rs">₹ 700</p></div>
+        <div class="ga"><img src="https://res.cloudinary.com/dwgelsvcd/image/upload/v1737616133/ifgzfkzsa0eqzpskx8iv.png" alt=""><br><p class="digi">Digital Assets-3<br><p class="rs">₹ 1</p></div>
+        
+        
+        
+    </div>
+    
+    
+    
+      
+
+    
+    <div class="vie">
+        <div class="viewmore">View More<i class="ri-arrow-right-line"></i></div>
+  </div>
+  <br>
+
+   <div class="trusted">
+    <div class="revie"><p class="ou">Our Trusted<br> <p class="ouu">Student Reviews</p></p></div>
+
+
+     <br>
+     <div class="bbx">
+        <div class="bbx1">
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-1-Cx6jsVHE.jpg" alt=""></p><br><p class="ee">Kalyani Mane<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                
+                <div class="bbx4"><p style="font-size: 20px ;color: rgb(55 65 81 ); ">
+                    
+                    Hi, I'm Kalyani Mane. As a housewife, joining Grow Skills<br> Academy was a great decision. The course helped me learn<br> so much in just a month. Thanks to the guidance and<br> support of our mentors, I've been able to improve my<br> design skills significantly. I've learned a lot about color<br> psychology and observation skills.</div>
+                  
+            </div>
+            
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Omkar Bhor<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">
+                    
+                    I've been learning graphic design for quite some time.<br> When I came across Grow Skills Academy, I reached out to <br>Omkar sir and joined. The academy has opened up a whole <br>new world for me, especially with the introduction of AI<br> tools like Midjourney and Adobe Firefly. It's been an<br> exciting journey!
+                    
+                    </p></div>
+                 
+
+            </div>
+            
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-2-DrW5fTEZ.jpg" alt=""></p><br><p class="ee">Pratik Sugte<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                <div class="bbx4"><p style="font-size: 20px;color: rgb(55 65 81 ) ;">
+                    Hi, I'm Pratik. I've always had a passion for design. Joining Grow Skills Academy introduced me to the world of commercial design. Omkar sir's course, which incorporates AI tools like Midjourney and ChatGPT, has taken my design skills to new heights. I've learned how to leverage these tools to create more innovative and impactful designs.</p></div>
+            </div>
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-7-DlGOmIHg.jpg" alt=""></p><br><p class="ee">Namdev Ranerpatil<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                <div class="bbx4"><p style="font-size: 20px;color: rgb(55 65 81 ) ;">Hi, I'm Namdev Ranerpatil. I've been a photographer for 5<br> years now, but I always felt my editing skills were lacking.<br> When I discovered Grow Skills Academy online, I reached<br> out to Omkar sir. He guided me on how to enhance my<br> designs using AI tools like Midjourney and ChatGPT. It's<br> been a game-changer.</p></div>
+            </div>
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Shravni<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                  <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">Hi, I'm Shravni. As a competitive exam aspirant, I was <br>looking for a side hustle. Given my passion for graphic<br> design, I came across Grow Skills Academy on Instagram<br> and decided to join. The course was amazing! Thanks to<br> Omkar sir's guidance, I've learned how to use AI tools and <br>create stunning designs from basic to advanced levels.</p></div>
+           
+            </div>
+
+
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Veena<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                <div class="bbx4"><p style="font-size: 20px;color: rgb(55 65 81 ) ;">
+                    I'm a UI/UX designer. To level up my skills, I enrolled in Grow<br> Skills Academy. Omkar sir's teaching approach is <br>exceptional. His classes consist of a balanced mix of theory<br> and practice, ensuring a comprehensive learning<br> experience.The daily practice sessions under his guidance <br>have been immensely beneficial.</p></div>
+            
+            </div>
+
+
+
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-1-Cx6jsVHE.jpg" alt=""></p><br><p class="ee">Kalyani Mane<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                
+                <div class="bbx4"><p style="font-size: 20px ;color: rgb(55 65 81 ); ">
+                    
+                    Hi, I'm Kalyani Mane. As a housewife, joining Grow Skills<br> Academy was a great decision. The course helped me learn<br> so much in just a month. Thanks to the guidance and<br> support of our mentors, I've been able to improve my<br> design skills significantly. I've learned a lot about color<br> psychology and observation skills.</div>
+                  
+            </div>
+            
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Omkar Bhor<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">
+                    
+                    I've been learning graphic design for quite some time.<br> When I came across Grow Skills Academy, I reached out to <br>Omkar sir and joined. The academy has opened up a whole <br>new world for me, especially with the introduction of AI<br> tools like Midjourney and Adobe Firefly. It's been an<br> exciting journey!
+                    
+                    </p></div>
+                 
+
+            </div>
+            
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-2-DrW5fTEZ.jpg" alt=""></p><br><p class="ee">Pratik Sugte<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                <div class="bbx4"><p style="font-size: 20px;color: rgb(55 65 81 ) ;">
+                    Hi, I'm Pratik. I've always had a passion for design. Joining Grow Skills Academy introduced me to the world of commercial design. Omkar sir's course, which incorporates AI tools like Midjourney and ChatGPT, has taken my design skills to new heights. I've learned how to leverage these tools to create more innovative and impactful designs.</p></div>
+            </div>
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-7-DlGOmIHg.jpg" alt=""></p><br><p class="ee">Namdev Ranerpatil<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                <div class="bbx4"><p style="font-size: 20px;color: rgb(55 65 81 ) ;">Hi, I'm Namdev Ranerpatil. I've been a photographer for 5<br> years now, but I always felt my editing skills were lacking.<br> When I discovered Grow Skills Academy online, I reached<br> out to Omkar sir. He guided me on how to enhance my<br> designs using AI tools like Midjourney and ChatGPT. It's<br> been a game-changer.</p></div>
+            </div>
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Shravni<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                  <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">Hi, I'm Shravni. As a competitive exam aspirant, I was <br>looking for a side hustle. Given my passion for graphic<br> design, I came across Grow Skills Academy on Instagram<br> and decided to join. The course was amazing! Thanks to<br> Omkar sir's guidance, I've learned how to use AI tools and <br>create stunning designs from basic to advanced levels.</p></div>
+           
+            </div>
+
+
+            <div class="bbx2">
+                <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Veena<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                <div class="bbx4"><p style="font-size: 20px;color: rgb(55 65 81 ) ;">
+                    I'm a UI/UX designer. To level up my skills, I enrolled in Grow<br> Skills Academy. Omkar sir's teaching approach is <br>exceptional. His classes consist of a balanced mix of theory<br> and practice, ensuring a comprehensive learning<br> experience.The daily practice sessions under his guidance <br>have been immensely beneficial.</p></div>
+            
+            </div>
+
+        </div>
+     </div>
+     <br>
+         <div class="bbx5">
+            <div class="bbx6">
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-6-BdhxaBBl.jpg" alt=""></p><br><p class="ee">Amar Ranawade<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 20px;color: rgb(55 65 81 ) ;">Hi, I'm Amar Ranawade. I wanted to make a career in <br>graphic design, but my previous course didn't meet my <br>expectations. When I came across Grow Skills Academy, I <br>knew I had found the right place. The course provided me<br> with the professional graphic design skills I was looking for.<br> Thank You Growskills.</p></div>
+                </div>
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-4-CLy4OwIb.jpg" alt=""></p><br><p class="ee">Shyam Gayke<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 20px;color: rgb(55 65 81 );">
+                        I previously attended a three-month graphic design course<br> where I only learned about tools, and that too, not very <br>effectively. Then, I came across Grow Skills Academy and<br> joined Omkar sir's class. Here, I learned everything I needed <br>to know to create professional designs, including skills that <br>I couldn't learn in my previous course</p></div>
+                </div>
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Milind<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">
+                        I came across Grow Skills Academy through Instagram and was immediately impressed by the instructor's design skills. I was eager to learn more about corporate design. Grow Skills provided me with in-depth knowledge of color theory and fonts. I'm truly grateful for the guidance and support I received at Grow Skills Academ</p></div>
+                </div>
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Pravin<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">
+                        I was always looking for ways to enhance my design skills.<br> Grow Skills Academy was the answer I was searching for.<br> The AI training I received from Omkar sir has completely transformed my design process. Learning how to leverage AI<br> tools has opened up new creative possibilities and helped me achieve results I never thought were possible.</p></div>
+                </div>
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Mohit<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                     <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">
+                        Hi, my name is Mohit. I'm a Sells professional . The course created by Sir is perfect. It's a 5-week course where I learned a lot of things like retouching and product poster designing. I also learned important concepts like font pairing and color theory. Highly recommended if you are looking for a graphic design course.</p></div>
+                </div>
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-8-DkyzJOy0.jpg" alt=""></p><br><p class="ee">Rashmi Ghogare<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">I am writing this as it comes to mind. You're very calm and patient, which makes learning easy. I've never seen a mentor as good as you. You're passionate about teaching and make complex things simple. I'm grateful to have learned from you. I understand how challenging it can be, but you make it look effortless. You're an amazing mentor.</p></div>
+                </div>
+
+          
+
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-6-BdhxaBBl.jpg" alt=""></p><br><p class="ee">Amar Ranawade<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 20px;color: rgb(55 65 81 ) ;">Hi, I'm Amar Ranawade. I wanted to make a career in <br>graphic design, but my previous course didn't meet my <br>expectations. When I came across Grow Skills Academy, I <br>knew I had found the right place. The course provided me<br> with the professional graphic design skills I was looking for.<br> Thank You Growskills.</p></div>
+                </div>
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-4-CLy4OwIb.jpg" alt=""></p><br><p class="ee">Shyam Gayke<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 20px;color: rgb(55 65 81 );">
+                        I previously attended a three-month graphic design course<br> where I only learned about tools, and that too, not very <br>effectively. Then, I came across Grow Skills Academy and<br> joined Omkar sir's class. Here, I learned everything I needed <br>to know to create professional designs, including skills that <br>I couldn't learn in my previous course</p></div>
+                </div>
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Milind<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">
+                        I came across Grow Skills Academy through Instagram and was immediately impressed by the instructor's design skills. I was eager to learn more about corporate design. Grow Skills provided me with in-depth knowledge of color theory and fonts. I'm truly grateful for the guidance and support I received at Grow Skills Academ</p></div>
+                </div>
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Pravin<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">
+                        I was always looking for ways to enhance my design skills.<br> Grow Skills Academy was the answer I was searching for.<br> The AI training I received from Omkar sir has completely transformed my design process. Learning how to leverage AI<br> tools has opened up new creative possibilities and helped me achieve results I never thought were possible.</p></div>
+                </div>
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="ee">Mohit<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                     <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">
+                        Hi, my name is Mohit. I'm a Sells professional . The course created by Sir is perfect. It's a 5-week course where I learned a lot of things like retouching and product poster designing. I also learned important concepts like font pairing and color theory. Highly recommended if you are looking for a graphic design course.</p></div>
+                </div>
+                <div class="bbx7">
+                    <div class="bbx3"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-8-DkyzJOy0.jpg" alt=""></p><br><p class="ee">Rashmi Ghogare<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 20px;color:  rgb(55 65 81 );">I am writing this as it comes to mind. You're very calm and patient, which makes learning easy. I've never seen a mentor as good as you. You're passionate about teaching and make complex things simple. I'm grateful to have learned from you. I understand how challenging it can be, but you make it look effortless. You're an amazing mentor.</p></div>
+                </div>
+
+               
+             
+               
+
+              
+
+              
+
+
+<br> 
+     
+             
+
+            </div>
+         </div>
+
+         <br>
+         <div class="bbx8">
+            <div class="bbx9">
+                <div class="bbx10">
+                <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-9-SwOn6DcG.jpg" alt=""></p><br><p class="eeee">रवि बनकर<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                 <div class="bbx4"><p style="font-size: 17px;color: rgb(55 65 81 );">
+                    आहिल्या नगर वरून मी आपला ऑनलाईन ग्राफिक्स डिझाईन कोर्स कंप्लीट केला. आपल्या ग्रो स्किल अकॅडमी बद्दल खरचं सांगायचं म्हटल तर पाहिले तुमची शिकवण्याची पद्धत एक एक टूल्स तुम्ही खुप छान शिकवले आणि ते मला सहजरित्या सोप्या भाषेत समजले आणि मला नवनवीन आयडिया सुचत गेल्या आणि मी आता ग्राफिक्स डिझाईन चे काम मला आता भेटायला लागले. खर तर क्लास मध्ये तुम्ही जेजे टास्क दिलते त्या टास्क च्या बेस वर मला एका नगर मधील नामांकित हॉटेलचे काम भेटले. त्याबद्दल सर तुमचे खुप आभारी आहे तुमच्या सारखे मार्गदर्शन मला भेटले.</p></div>
+                </div>
+                <div class="bbx10">
+                    <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-10-CPYzXOEI.jpg" alt=""></p><br><p class="eeee">विश्वजीत शेजूळ
+                        <br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 17px;color:  rgb(55 65 81 );">
+                        मला ग्राफिक डिझाइन आवडते. जेव्हा मी इन्स्टाग्रामवर स्क्रोल करत होतो तेव्हा मला ग्रोस्किल्सची जाहिरात दिसली आणि मला माझा एक मित्रही दिसला. त्यानंतर मी त्याला मेसेज केला आणि विचारले की तू कोर्स कुठे जॉईन झाला आहेस. मग त्याने मला वाढीव ग्रोस्किल्स बद्दल सांगितले. त्याने मला ओंकार सरांचा नंबर दिला. त्यानंतर मी भेटायला आलो आणि सरांनी मला सांगितले की सर्व काही सोपे आहे आणि आम्ही तुम्हाला नवशिक्यापासून ॲडव्हान्स लेव्हलपर्यंत शिकवतो. मला संगणक कसे चालवायचे हे देखील माहित नाही म्हणून सरांनी मला हे देखील सांगितले. आता माझी ग्राफिक डिझाईन खूप अपग्रेड झाली आहेत.</p></div>
+
+                </div>
+                <div class="bbx10">
+                    <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-11-Dj75zLL3.jpg" alt=""></p><br><p class="eeee">कृष्णाल चौधरी<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size:17px ;color:  rgb(55 65 81 );;">
+                        मला ग्राफिक डिझाईनची आवड होती. मी या बद्दल एक क्लास पण जॉईन केला होता पण मला ते तिथून एवढं शिकायला नाही भेटलं. मी एकदा इन्स्टाग्राम बघत होतो आणि मला एक ओमकार सर यांची एक जाहिरात दिसली तिथून मी त्यांना कॉन्टॅक्ट वगैरे केला आणि त्यांचा सिलॅबस वगैरे बघितला. त्यांचा सिलॅबस मला आवडला त्यांनी सुरुवातीलाच सांगितलं होतं का आपला असा सिलॅबस आहे तर आज त्यांनी शेवटपर्यंत डिलिव्हर केला सिलॅबस, त्यांची एक तास थिअरी आणि एक तास प्रॅक्टिस चांगली संकल्पना आहे. जर तुम्हाला पण ग्राफिक डिझाईनच्या स्किल वाढवायच्या असतील तर तुम्ही ग्रोथ स्किल अकॅडमीला भेट द्या धन्यवाद.</p></div>
+                </div>
+                <div class="bbx10">
+
+                    <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-12-CSaEwjc6.jpg" alt=""></p><br><p class="eeee">मनोज घोडके<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size:17px ;color:  rgb(55 65 81 );">
+                        माझं नाव मनोज गोडके मी एक डिलिव्हरी बॉयचा जॉब करायचो आणि एकदा स्क्रोल करताना मी सरानचा व्हिडिओ बघितला पोस्ट बघितले सरानला कॉल केला आणि भेटायला सराननी मला सगळं सांगितलं त्यानंतर मी नावनोंदणी केलं कोर्समध्ये. मला इथं आधी माझ्या ग्राफिक डिझायनिंग कडं बघायच्या दृष्टीकोन सराननी जो बदलला, इथं मला जास्तीत जास्त नॉलेज मिळालं जसं की आपले एक मित्र सांगतो आपल्याला की बाबा असं नाही असं करू असं नाही असं करू आणि प्रॉपर असं दुसरीकडं पण असतो पण तिथं जे असं आहे की चुकलं तर वेळोवेळी सांगतात आणि प्रॅक्टिकल प्रॅक्टिकल लगेच वेगळं
+                    </p></div>
+                </div>
+                <div class="bbx10">
+                    <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-13-C8JuHKHg.jpg" alt=""></p><br><p class="eeee">प्रवीण शिलवंत<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size:17px ;color:  rgb(55 65 81 );">
+                        मी प्रवीण शिलवंत, मी ग्राफिक्स डिझाईन बऱ्याच वर्षांपासून करतोय पण एक ग्राफिक्समध्ये काहीतरी अ‍ॅडव्हान्स करायचं बऱ्याच दिवसांपासून एक मनात होतं की काहीतरी अ‍ॅडव्हान्स करूया काहीतरी अ‍ॅडव्हान्स करूया आणि ते इथं पुण्यात आपल्याला स्वतःला काय ग्रो करता येईल ते ग्रोस्किलनी आम्हाला शिकवलं तर ग्रोस्किल अ‍ॅकॅडमीमध्ये ओंकार सरांनी खूप खूप छान पद्धतीने आम्हाला सरळ सरळ मार्गदर्शन केलं. त्यामुळे तुम्हाला सगळ्यांना जर ग्रो करायचं असेल तर 100% ग्रो स्किल अ‍ॅकॅडमीमध्ये तुम्ही प्रवेश घ्या आणि सरांना भेट द्या थँक्यू. धन्यवाद ओंकार सर</p></div>
+                </div>
+                <div class="bbx10">
+                    <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="eeee">पंकज पाटील<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                    <div class="bbx4"><p style="font-size: 17px;color: rgb(55 65 81 ); ;">
+                        मी पुण्यात ग्राफिक डिझाइनचा क्लास जॉइन केला होता, पण तिथे फक्त टूल्स शिकवले गेले, डिझाइनच्या मूळ गोष्टी जसे की कलर थिअरी, फॉन्ट थिअरी, एलिमेंट याबद्दल काहीच शिकवले नाही. नंतर मला इंस्टाग्रामवर ग्रो स्किल अकॅडमीबद्दल माहिती मिळाली. ओंकार सरांनी टूल्स वापरण्याबरोबरच कलर थिअरी, फॉन्ट थिअरी, डिझाइन प्रक्रिया, AI टूल्स (ChatGPT, MidJourney) आणि डिझाइन्स अधिक प्रभावी बनवण्याच्या पद्धती शिकवल्या. ओंकार सरांची शिकवण्याची पद्धत उत्कृष्ट आहे, आणि ग्राफिक डिझाइन क्षेत्रात करिअर करायचे असल्यास त्यांचा क्लास जॉइन करण्याची शिफारस करतो.</p></div>
+                </div>
+
+                <div class="bbx10">
+                    <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-9-SwOn6DcG.jpg" alt=""></p><br><p class="eeee">रवि बनकर<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                     <div class="bbx4"><p style="font-size: 17px;color: rgb(55 65 81 );">
+                        आहिल्या नगर वरून मी आपला ऑनलाईन ग्राफिक्स डिझाईन कोर्स कंप्लीट केला. आपल्या ग्रो स्किल अकॅडमी बद्दल खरचं सांगायचं म्हटल तर पाहिले तुमची शिकवण्याची पद्धत एक एक टूल्स तुम्ही खुप छान शिकवले आणि ते मला सहजरित्या सोप्या भाषेत समजले आणि मला नवनवीन आयडिया सुचत गेल्या आणि मी आता ग्राफिक्स डिझाईन चे काम मला आता भेटायला लागले. खर तर क्लास मध्ये तुम्ही जेजे टास्क दिलते त्या टास्क च्या बेस वर मला एका नगर मधील नामांकित हॉटेलचे काम भेटले. त्याबद्दल सर तुमचे खुप आभारी आहे तुमच्या सारखे मार्गदर्शन मला भेटले.</p></div>
+                    </div>
+                    <div class="bbx10">
+                        <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-10-CPYzXOEI.jpg" alt=""></p><br><p class="eeee">विश्वजीत शेजूळ
+                            <br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                        <div class="bbx4"><p style="font-size: 17px;color:  rgb(55 65 81 );">
+                            मला ग्राफिक डिझाइन आवडते. जेव्हा मी इन्स्टाग्रामवर स्क्रोल करत होतो तेव्हा मला ग्रोस्किल्सची जाहिरात दिसली आणि मला माझा एक मित्रही दिसला. त्यानंतर मी त्याला मेसेज केला आणि विचारले की तू कोर्स कुठे जॉईन झाला आहेस. मग त्याने मला वाढीव ग्रोस्किल्स बद्दल सांगितले. त्याने मला ओंकार सरांचा नंबर दिला. त्यानंतर मी भेटायला आलो आणि सरांनी मला सांगितले की सर्व काही सोपे आहे आणि आम्ही तुम्हाला नवशिक्यापासून ॲडव्हान्स लेव्हलपर्यंत शिकवतो. मला संगणक कसे चालवायचे हे देखील माहित नाही म्हणून सरांनी मला हे देखील सांगितले. आता माझी ग्राफिक डिझाईन खूप अपग्रेड झाली आहेत.</p></div>
+    
+                    </div>
+                    <div class="bbx10">
+                        <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-11-Dj75zLL3.jpg" alt=""></p><br><p class="eeee">कृष्णाल चौधरी<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                        <div class="bbx4"><p style="font-size:17px ;color:  rgb(55 65 81 );;">
+                            मला ग्राफिक डिझाईनची आवड होती. मी या बद्दल एक क्लास पण जॉईन केला होता पण मला ते तिथून एवढं शिकायला नाही भेटलं. मी एकदा इन्स्टाग्राम बघत होतो आणि मला एक ओमकार सर यांची एक जाहिरात दिसली तिथून मी त्यांना कॉन्टॅक्ट वगैरे केला आणि त्यांचा सिलॅबस वगैरे बघितला. त्यांचा सिलॅबस मला आवडला त्यांनी सुरुवातीलाच सांगितलं होतं का आपला असा सिलॅबस आहे तर आज त्यांनी शेवटपर्यंत डिलिव्हर केला सिलॅबस, त्यांची एक तास थिअरी आणि एक तास प्रॅक्टिस चांगली संकल्पना आहे. जर तुम्हाला पण ग्राफिक डिझाईनच्या स्किल वाढवायच्या असतील तर तुम्ही ग्रोथ स्किल अकॅडमीला भेट द्या धन्यवाद.</p></div>
+                    </div>
+                    <div class="bbx10">
+    
+                        <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-12-CSaEwjc6.jpg" alt=""></p><br><p class="eeee">मनोज घोडके<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                        <div class="bbx4"><p style="font-size:17px ;color:  rgb(55 65 81 );">
+                            माझं नाव मनोज गोडके मी एक डिलिव्हरी बॉयचा जॉब करायचो आणि एकदा स्क्रोल करताना मी सरानचा व्हिडिओ बघितला पोस्ट बघितले सरानला कॉल केला आणि भेटायला सराननी मला सगळं सांगितलं त्यानंतर मी नावनोंदणी केलं कोर्समध्ये. मला इथं आधी माझ्या ग्राफिक डिझायनिंग कडं बघायच्या दृष्टीकोन सराननी जो बदलला, इथं मला जास्तीत जास्त नॉलेज मिळालं जसं की आपले एक मित्र सांगतो आपल्याला की बाबा असं नाही असं करू असं नाही असं करू आणि प्रॉपर असं दुसरीकडं पण असतो पण तिथं जे असं आहे की चुकलं तर वेळोवेळी सांगतात आणि प्रॅक्टिकल प्रॅक्टिकल लगेच वेगळं
+                        </p></div>
+                    </div>
+                    <div class="bbx10">
+                        <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/testimonials-13-C8JuHKHg.jpg" alt=""></p><br><p class="eeee">प्रवीण शिलवंत<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                        <div class="bbx4"><p style="font-size:17px ;color:  rgb(55 65 81 );">
+                            मी प्रवीण शिलवंत, मी ग्राफिक्स डिझाईन बऱ्याच वर्षांपासून करतोय पण एक ग्राफिक्समध्ये काहीतरी अ‍ॅडव्हान्स करायचं बऱ्याच दिवसांपासून एक मनात होतं की काहीतरी अ‍ॅडव्हान्स करूया काहीतरी अ‍ॅडव्हान्स करूया आणि ते इथं पुण्यात आपल्याला स्वतःला काय ग्रो करता येईल ते ग्रोस्किलनी आम्हाला शिकवलं तर ग्रोस्किल अ‍ॅकॅडमीमध्ये ओंकार सरांनी खूप खूप छान पद्धतीने आम्हाला सरळ सरळ मार्गदर्शन केलं. त्यामुळे तुम्हाला सगळ्यांना जर ग्रो करायचं असेल तर 100% ग्रो स्किल अ‍ॅकॅडमीमध्ये तुम्ही प्रवेश घ्या आणि सरांना भेट द्या थँक्यू. धन्यवाद ओंकार सर</p></div>
+                    </div>
+                    <div class="bbx10">
+                        <div class="bbx11"><p class="dat"><img src="https://thegrowskills.com/assets/TestimonialsAvatarImg-BIXzZjyw.png" alt=""></p><br><p class="eeee">पंकज पाटील<br><span class="r"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span></p></div>
+                        <div class="bbx4"><p style="font-size: 17px;color: rgb(55 65 81 ); ;">
+                            मी पुण्यात ग्राफिक डिझाइनचा क्लास जॉइन केला होता, पण तिथे फक्त टूल्स शिकवले गेले, डिझाइनच्या मूळ गोष्टी जसे की कलर थिअरी, फॉन्ट थिअरी, एलिमेंट याबद्दल काहीच शिकवले नाही. नंतर मला इंस्टाग्रामवर ग्रो स्किल अकॅडमीबद्दल माहिती मिळाली. ओंकार सरांनी टूल्स वापरण्याबरोबरच कलर थिअरी, फॉन्ट थिअरी, डिझाइन प्रक्रिया, AI टूल्स (ChatGPT, MidJourney) आणि डिझाइन्स अधिक प्रभावी बनवण्याच्या पद्धती शिकवल्या. ओंकार सरांची शिकवण्याची पद्धत उत्कृष्ट आहे, आणि ग्राफिक डिझाइन क्षेत्रात करिअर करायचे असल्यास त्यांचा क्लास जॉइन करण्याची शिफारस करतो.</p></div>
+                    </div>
+
+
+
+            </div>
+         </div>
+
+         <br>
+         <br>
+         <br>
+
+         <div class="should">
+            <div class="fir">
+                <div class="fir1">Why You <br><br>Should Trust<br><br><p class="grr"> GrowSkills?</p></div>
+            </div>
+            <div class="sec">
+                <div class="fu">
+                <div class="a1"><i class="ri-arrow-right-up-line"></i></div>
+                <div class="a2"><p style="font-size: 25px;font-weight: 700;color: white;">Thousands of creative classes. Beginner to<br> pro.</p></div>
+            
+            </div>
+                <div class="fu">
+                    <div class="a1"><i class="ri-arrow-right-up-line"></i></div>
+                    <div class="a2"><p style="font-size: 25px;font-weight: 700;color: white;">Latest technologies with real-world projects.</p></div>
+
+                </div>
+                <div class="fu">
+                    <div class="a1"><i class="ri-arrow-right-up-line"></i></div>
+                    <div class="a2"><p style="font-size: 25px;font-weight: 700;color: white;">Learning Paths to help you achieve your<br> goals.</p></div>
+                </div>
+                <div class="fu">
+                    <div class="a1"><i class="ri-arrow-right-up-line"></i></div>
+                    <div class="a2"><p style="font-size: 25px;font-weight: 700;color: white;">Certificates to celebrate your<br> accomplishments.</p></div>
+                </div>
+
+
+
+            </div>
+         </div>
+     
+   </div>
+
+
+<br>
+      <div class="frequent">
+       <div class="frq">Frequently Asked <br><P class="q">Questions ?</P></div>
+       <div class="frq1">1. What courses do you offer?</div>
+        <hr class="l1">
+
+        <br>
+        <br>
+        <div class="frq1">2. Are the courses available both online and offline?</div>
+         <hr class="l1">
+       <br>
+       <br>
+       <div class="frq1">3. Do I need prior experience to join the courses?</div>
+       <hr class="l1">
+       <br>
+       <br>
+       <div class="frq1">4. What kind of support will I get after completing a course?</div>
+       <hr class="l1">
+       <br>
+       <br>
+       <div class="frq1">5. Do you provide certificates upon course completion?</div>
+       <hr class="l1">
+       <br>
+       <br>
+       <div class="frq1">6. How do I register for a course?</div>
+       <hr class="l1">
+       <br>
+       <br>
+
+      </div>
+
+      <div class="footer">
+        <div class="fl1">
+            <div class="logi"><img src="https://thegrowskills.com/assets/logo-white-wpqGetjB.png" alt=""></div>
+            <div class="logi1">
+                <div class="logi2"><p class="logi3"><i class="ri-facebook-circle-fill"></p></i></div>
+                <div class="logi2"><i class="ri-instagram-line"></i></div>
+                <div class="logi2"><i class="ri-linkedin-box-fill"></i></div>
+            </div>
+        </div>
+        <hr class="no2">
+
+        <br>
+            <br>
+            <div class="main1">
+                
+        <div class="thh">
+                <ul type="none">
+                    
+                    <b><li>Legal</li><br></b>
+                    <li>Privacy Policy</li><br>
+                    <li>Refund Policy</li><br>
+                    <li>Terms & Conditions</li>
+                </ul>
+        </div>
+        <div class="thh">
+            <ul type="none">
+               <b><li>Helpful Links</li></b><br>
+                <li>All Courses</li><br>
+                <li>Digital Asset</li><br>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="thh">
+            <ul type="none">
+                <b><li>Company</li></b><br>
+                <li>Phone: +91 77739 35238</li><br>
+                <li>email: growskills24@gmail.com</li><br>
+                <li>Address: Leadstosell, 3rd Floor, Office No.307, K Square, Foundree Preschool Rd, Baner, Pune, Maharashtra- 411045.</li>
+            </ul>
+        </div>
+    </div>
+    
+        <br>
+           <p class="dew">© 2025. Developed By WebzTier Innovations. All rights reserved.</p>
+        
+       
+      </div>
+      
+      <div class="mainla"></div>
+    </div>
+    <br>
+
+</body>
+</html>
